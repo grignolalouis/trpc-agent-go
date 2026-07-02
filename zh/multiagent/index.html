@@ -11,7 +11,7 @@
         <link rel="canonical" href="https://trpc-group.github.io/trpc-agent-go/zh/multiagent/">
       
       
-        <link rel="prev" href="../agent/">
+        <link rel="prev" href="../goal/">
       
       
         <link rel="next" href="../taskrun/">
@@ -369,6 +369,26 @@
   
 
       
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../blog/trpcagentgo/" class="md-tabs__link">
+          
+  
+  
+  博客
+
+        </a>
+      </li>
+    
+  
+
+      
     </ul>
   </div>
 </nav>
@@ -537,6 +557,29 @@
   
   <span class="md-ellipsis">
     Agent
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../goal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Goal 扩展
     
   </span>
   
@@ -986,6 +1029,24 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#_24" class="md-nav__link">
+    <span class="md-ellipsis">
+      钉住模型与结构化输出
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#agent_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      关联子 Agent 事件到父级工具调用
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1002,7 +1063,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_24" class="md-nav__link">
+  <a href="#_25" class="md-nav__link">
     <span class="md-ellipsis">
       使用场景
     </span>
@@ -1011,7 +1072,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_25" class="md-nav__link">
+  <a href="#_26" class="md-nav__link">
     <span class="md-ellipsis">
       基本用法
     </span>
@@ -1029,7 +1090,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#agent_1" class="md-nav__link">
+  <a href="#agent_2" class="md-nav__link">
     <span class="md-ellipsis">
       Agent委托架构
     </span>
@@ -1038,7 +1099,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_26" class="md-nav__link">
+  <a href="#_27" class="md-nav__link">
     <span class="md-ellipsis">
       示例会话
     </span>
@@ -1047,9 +1108,18 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_27" class="md-nav__link">
+  <a href="#_28" class="md-nav__link">
     <span class="md-ellipsis">
       跨轮追问用户
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transfer" class="md-nav__link">
+    <span class="md-ellipsis">
+      关联 Transfer 目标事件到触发的工具调用
     </span>
   </a>
   
@@ -1066,7 +1136,49 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_28" class="md-nav__link">
+  <a href="#explorer-agent" class="md-nav__link">
+    <span class="md-ellipsis">
+      内置 Explorer（只读探索 Agent）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="内置 Explorer（只读探索 Agent）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_29" class="md-nav__link">
+    <span class="md-ellipsis">
+      默认继承行为
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_30" class="md-nav__link">
+    <span class="md-ellipsis">
+      只读语义是软约束
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_31" class="md-nav__link">
+    <span class="md-ellipsis">
+      自定义能力面
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_32" class="md-nav__link">
     <span class="md-ellipsis">
       环境变量配置
     </span>
@@ -1075,7 +1187,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_29" class="md-nav__link">
+  <a href="#_33" class="md-nav__link">
     <span class="md-ellipsis">
       运行示例
     </span>
@@ -1085,7 +1197,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_30" class="md-nav__link">
+  <a href="#_34" class="md-nav__link">
     <span class="md-ellipsis">
       核心协作模式示例
     </span>
@@ -1095,7 +1207,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#agent_2" class="md-nav__link">
+  <a href="#agent_3" class="md-nav__link">
     <span class="md-ellipsis">
       链式 Agent 示例
     </span>
@@ -1104,7 +1216,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#agent_3" class="md-nav__link">
+  <a href="#agent_4" class="md-nav__link">
     <span class="md-ellipsis">
       并行 Agent 示例
     </span>
@@ -1113,7 +1225,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#agent_4" class="md-nav__link">
+  <a href="#agent_5" class="md-nav__link">
     <span class="md-ellipsis">
       循环 Agent 示例
     </span>
@@ -1127,7 +1239,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_31" class="md-nav__link">
+  <a href="#_35" class="md-nav__link">
     <span class="md-ellipsis">
       辅助功能示例
     </span>
@@ -1137,7 +1249,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#agent_5" class="md-nav__link">
+  <a href="#agent_6" class="md-nav__link">
     <span class="md-ellipsis">
       Agent 工具示例
     </span>
@@ -1146,7 +1258,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#agent_6" class="md-nav__link">
+  <a href="#agent_7" class="md-nav__link">
     <span class="md-ellipsis">
       Agent 委托示例
     </span>
@@ -1165,7 +1277,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_32" class="md-nav__link">
+  <a href="#_36" class="md-nav__link">
     <span class="md-ellipsis">
       自定义和扩展
     </span>
@@ -1175,7 +1287,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#agent_7" class="md-nav__link">
+  <a href="#agent_8" class="md-nav__link">
     <span class="md-ellipsis">
       添加新的 Agent
     </span>
@@ -1184,7 +1296,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_33" class="md-nav__link">
+  <a href="#_37" class="md-nav__link">
     <span class="md-ellipsis">
       配置工具
     </span>
@@ -1193,7 +1305,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_34" class="md-nav__link">
+  <a href="#_38" class="md-nav__link">
     <span class="md-ellipsis">
       调整参数
     </span>
@@ -1353,6 +1465,29 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../codex/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Codex Agent
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1397,6 +1532,29 @@
   
   <span class="md-ellipsis">
     Code Executor
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../codeact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CodeAct
     
   </span>
   
@@ -1598,6 +1756,29 @@
   
   
     <li class="md-nav__item">
+      <a href="../evolution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Evolution
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../tool/" class="md-nav__link">
         
   
@@ -1632,10 +1813,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_13" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_15" >
         
           
-          <label class="md-nav__link" for="__nav_2_13" id="__nav_2_13_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2_15" id="__nav_2_15_label" tabindex="0">
             
   
   
@@ -1648,8 +1829,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_13_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2_13">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_15_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_15">
             <span class="md-nav__icon md-icon"></span>
             Session
           </label>
@@ -1885,6 +2066,29 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../session/mongodb/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    MongoDB Session
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1911,10 +2115,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_14" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_16" >
         
           
-          <label class="md-nav__link" for="__nav_2_14" id="__nav_2_14_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2_16" id="__nav_2_16_label" tabindex="0">
             
   
   
@@ -1927,8 +2131,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_14_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2_14">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_16_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_16">
             <span class="md-nav__icon md-icon"></span>
             Knowledge
           </label>
@@ -2010,12 +2214,58 @@
   
   
     <li class="md-nav__item">
+      <a href="../knowledge/query-enhancer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Query Enhancer
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../knowledge/source/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     数据源
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../knowledge/code-rag/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    代码知识库（Code RAG, Beta）
     
   </span>
   
@@ -2136,10 +2386,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_14_9" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_16_11" >
         
           
-          <label class="md-nav__link" for="__nav_2_14_9" id="__nav_2_14_9_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2_16_11" id="__nav_2_16_11_label" tabindex="0">
             
   
   
@@ -2152,8 +2402,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_14_9_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2_14_9">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_16_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_16_11">
             <span class="md-nav__icon md-icon"></span>
             向量存储
           </label>
@@ -2528,6 +2778,29 @@
   
   
   
+    <li class="md-nav__item">
+      <a href="../trpcagent/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    tRPC-Agent API
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
     
     
     
@@ -2540,10 +2813,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
         
           
-          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
             
   
   
@@ -2556,8 +2829,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3_2">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
             <span class="md-nav__icon md-icon"></span>
             AG-UI
           </label>
@@ -2851,6 +3124,330 @@
   
 
       </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    博客
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            博客
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../blog/trpcagentgo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    构建智能 AI 应用的 Go 语言 Agent 框架
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../blog/summary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    长任务 Agent 上下文管理的设计与评测
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../blog/observability/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    看见 Agent 运行时：tRPC-Agent-Go 可观测的设计与取舍
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../blog/promptcache/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    降低 Agent Token 成本：tRPC-Agent-Go 的 Prompt Cache 工程实践
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../blog/graphagent/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GraphAgent 让 AI 工作流与 Agent 无缝融合
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../blog/agui/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    快速构建基于 AG-UI 的 Agent 服务
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../blog/skill/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Anthropic Agent Skills 规范的 Go 原生实现
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../blog/evaluation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AI Agent 自动化评估范式与工程实践全解析
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../blog/llmverifier/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AI Agent 高质量稳定性提升方法
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../blog/openclaw/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    打造企业级安全可控的 OpenClaw Runtime
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../blog/promptiter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AI Agent 提示词自动迭代与工程实践全解析
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../blog/multiagent-boundaries/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    把工作放到合适边界：tRPC-Agent-Go Multi-Agent 设计与选型
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -3264,6 +3861,24 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#_24" class="md-nav__link">
+    <span class="md-ellipsis">
+      钉住模型与结构化输出
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#agent_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      关联子 Agent 事件到父级工具调用
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -3280,7 +3895,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_24" class="md-nav__link">
+  <a href="#_25" class="md-nav__link">
     <span class="md-ellipsis">
       使用场景
     </span>
@@ -3289,7 +3904,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_25" class="md-nav__link">
+  <a href="#_26" class="md-nav__link">
     <span class="md-ellipsis">
       基本用法
     </span>
@@ -3307,7 +3922,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#agent_1" class="md-nav__link">
+  <a href="#agent_2" class="md-nav__link">
     <span class="md-ellipsis">
       Agent委托架构
     </span>
@@ -3316,7 +3931,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_26" class="md-nav__link">
+  <a href="#_27" class="md-nav__link">
     <span class="md-ellipsis">
       示例会话
     </span>
@@ -3325,9 +3940,18 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_27" class="md-nav__link">
+  <a href="#_28" class="md-nav__link">
     <span class="md-ellipsis">
       跨轮追问用户
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transfer" class="md-nav__link">
+    <span class="md-ellipsis">
+      关联 Transfer 目标事件到触发的工具调用
     </span>
   </a>
   
@@ -3344,7 +3968,49 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_28" class="md-nav__link">
+  <a href="#explorer-agent" class="md-nav__link">
+    <span class="md-ellipsis">
+      内置 Explorer（只读探索 Agent）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="内置 Explorer（只读探索 Agent）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_29" class="md-nav__link">
+    <span class="md-ellipsis">
+      默认继承行为
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_30" class="md-nav__link">
+    <span class="md-ellipsis">
+      只读语义是软约束
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_31" class="md-nav__link">
+    <span class="md-ellipsis">
+      自定义能力面
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_32" class="md-nav__link">
     <span class="md-ellipsis">
       环境变量配置
     </span>
@@ -3353,7 +4019,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_29" class="md-nav__link">
+  <a href="#_33" class="md-nav__link">
     <span class="md-ellipsis">
       运行示例
     </span>
@@ -3363,7 +4029,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_30" class="md-nav__link">
+  <a href="#_34" class="md-nav__link">
     <span class="md-ellipsis">
       核心协作模式示例
     </span>
@@ -3373,7 +4039,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#agent_2" class="md-nav__link">
+  <a href="#agent_3" class="md-nav__link">
     <span class="md-ellipsis">
       链式 Agent 示例
     </span>
@@ -3382,7 +4048,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#agent_3" class="md-nav__link">
+  <a href="#agent_4" class="md-nav__link">
     <span class="md-ellipsis">
       并行 Agent 示例
     </span>
@@ -3391,7 +4057,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#agent_4" class="md-nav__link">
+  <a href="#agent_5" class="md-nav__link">
     <span class="md-ellipsis">
       循环 Agent 示例
     </span>
@@ -3405,7 +4071,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_31" class="md-nav__link">
+  <a href="#_35" class="md-nav__link">
     <span class="md-ellipsis">
       辅助功能示例
     </span>
@@ -3415,7 +4081,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#agent_5" class="md-nav__link">
+  <a href="#agent_6" class="md-nav__link">
     <span class="md-ellipsis">
       Agent 工具示例
     </span>
@@ -3424,7 +4090,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#agent_6" class="md-nav__link">
+  <a href="#agent_7" class="md-nav__link">
     <span class="md-ellipsis">
       Agent 委托示例
     </span>
@@ -3443,7 +4109,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_32" class="md-nav__link">
+  <a href="#_36" class="md-nav__link">
     <span class="md-ellipsis">
       自定义和扩展
     </span>
@@ -3453,7 +4119,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#agent_7" class="md-nav__link">
+  <a href="#agent_8" class="md-nav__link">
     <span class="md-ellipsis">
       添加新的 Agent
     </span>
@@ -3462,7 +4128,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_33" class="md-nav__link">
+  <a href="#_37" class="md-nav__link">
     <span class="md-ellipsis">
       配置工具
     </span>
@@ -3471,7 +4137,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_34" class="md-nav__link">
+  <a href="#_38" class="md-nav__link">
     <span class="md-ellipsis">
       调整参数
     </span>
@@ -4394,85 +5060,50 @@ Escalation 只是指控制流上抛 / 中止循环，并不是“版本升级”
 <p>当子 Agent 是一个上下文隔离的独立工作者，而父 Agent 只应该消费它的最终答案时，
 使用 <code>ResponseModeFinalOnly</code>。如果还希望在流式 UI 中隐藏子 Agent 的正文，
 再单独组合 <code>InnerTextModeExclude</code>。</p>
+<h4 id="_24">钉住模型与结构化输出</h4>
+<p>默认情况下，子 Agent 会继承调用方从 <code>RunOptions</code> 带下来的运行时覆盖项。
+这只在调用方于 <code>runner.Run</code> 时传入选项时才会产生影响（例如 AGUI 服务端转发
+终端用户选择的模型或输出格式）。如果 <code>RunOptions</code> 中没有设置运行时覆盖项，
+子 Agent 自然使用自己的静态配置。</p>
+<p>对固定的 <code>AgentTool</code> 子 Agent，可以在 AgentTool 边界清掉指定的继承覆盖项，
+让子 Agent 自己的配置重新生效：</p>
+<div class="language-go highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-15-1">1</a></span>
+<span class="normal"><a href="#__codelineno-15-2">2</a></span>
+<span class="normal"><a href="#__codelineno-15-3">3</a></span>
+<span class="normal"><a href="#__codelineno-15-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1"></a><span class="nx">agenttool</span><span class="p">.</span><span class="nx">NewTool</span><span class="p">(</span><span class="nx">subAgent</span><span class="p">,</span>
+</span><span id="__span-15-2"><a id="__codelineno-15-2" name="__codelineno-15-2"></a><span class="w">    </span><span class="nx">agenttool</span><span class="p">.</span><span class="nx">WithPinModel</span><span class="p">(</span><span class="kc">true</span><span class="p">),</span>
+</span><span id="__span-15-3"><a id="__codelineno-15-3" name="__codelineno-15-3"></a><span class="w">    </span><span class="nx">agenttool</span><span class="p">.</span><span class="nx">WithPinStructuredOutput</span><span class="p">(</span><span class="kc">true</span><span class="p">),</span>
+</span><span id="__span-15-4"><a id="__codelineno-15-4" name="__codelineno-15-4"></a><span class="p">)</span>
+</span></code></pre></div></td></tr></table></div>
+<p>这几个选项分别对应不同的继承字段：</p>
+<ul>
+<li><code>WithPinModel(true)</code>：清掉 <code>RunOptions.ModelName</code>、<code>RunOptions.Model</code> 和
+  <code>RunOptions.ModelSelector</code>，让子 Agent 自己的 <code>llmagent.WithModel(...)</code>
+  或模型选择器生效。</li>
+<li><code>WithPinStructuredOutput(true)</code>：清掉 <code>RunOptions.StructuredOutput</code> 和
+  <code>RunOptions.StructuredOutputType</code>，让子 Agent 自己的
+  <code>llmagent.WithStructuredOutputJSON(...)</code> 或
+  <code>llmagent.WithStructuredOutputJSONSchema(...)</code> 生效。</li>
+</ul>
+<h4 id="agent_1">关联子 Agent 事件到父级工具调用</h4>
+<p>通过 <code>AgentTool</code> 调用的子 Agent 发出的事件会带有 <code>ParentMetadata</code> 字段，其
+<code>TriggerID</code> 即父级的 <code>toolCallId</code>。AG-UI 调用方可以用它作为 join key，把子
+Agent 的事件挂回到具体那一次 <code>TOOL_CALL_START</code>。这在模型于一轮里对同一子
+Agent 发起多个并行 AgentTool 调用时尤为重要——所有派生 invocation 共享同一
+<code>ParentInvocationID</code>，只有 <code>ParentMetadata.TriggerID</code> 才能区分。具体线上格式
+和字段语义见 AG-UI chat 文档的
+<a href="../agui/chat/#事件来源元数据">事件来源元数据</a> 章节，以及 Event 文档的
+<a href="../event/#requestidparentinvocationidinvocationid三者的关系与使用场景">ParentMetadata 字段</a>。</p>
 <h3 id="agent-agent-transfer">Agent 委托 (Agent Transfer)</h3>
 <p>Agent 委托通过 <code>transfer_to_agent</code> 工具实现 Agent 间的任务委托，允许主 Agent 根据任务类型自动选择合适的 SubAgent。</p>
-<h4 id="_24">使用场景</h4>
+<h4 id="_25">使用场景</h4>
 <ul>
 <li><strong>任务分类</strong>：根据用户请求自动选择合适的 SubAgent</li>
 <li><strong>智能路由</strong>：将复杂任务路由到最合适的处理者</li>
 <li><strong>专业化处理</strong>：每个 SubAgent 专注于特定领域</li>
 <li><strong>无缝切换</strong>：在 SubAgent 之间无缝切换，保持对话连续性</li>
 </ul>
-<h4 id="_25">基本用法</h4>
-<div class="language-go highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-15-1"> 1</a></span>
-<span class="normal"><a href="#__codelineno-15-2"> 2</a></span>
-<span class="normal"><a href="#__codelineno-15-3"> 3</a></span>
-<span class="normal"><a href="#__codelineno-15-4"> 4</a></span>
-<span class="normal"><a href="#__codelineno-15-5"> 5</a></span>
-<span class="normal"><a href="#__codelineno-15-6"> 6</a></span>
-<span class="normal"><a href="#__codelineno-15-7"> 7</a></span>
-<span class="normal"><a href="#__codelineno-15-8"> 8</a></span>
-<span class="normal"><a href="#__codelineno-15-9"> 9</a></span>
-<span class="normal"><a href="#__codelineno-15-10">10</a></span>
-<span class="normal"><a href="#__codelineno-15-11">11</a></span>
-<span class="normal"><a href="#__codelineno-15-12">12</a></span>
-<span class="normal"><a href="#__codelineno-15-13">13</a></span>
-<span class="normal"><a href="#__codelineno-15-14">14</a></span>
-<span class="normal"><a href="#__codelineno-15-15">15</a></span>
-<span class="normal"><a href="#__codelineno-15-16">16</a></span>
-<span class="normal"><a href="#__codelineno-15-17">17</a></span>
-<span class="normal"><a href="#__codelineno-15-18">18</a></span>
-<span class="normal"><a href="#__codelineno-15-19">19</a></span>
-<span class="normal"><a href="#__codelineno-15-20">20</a></span>
-<span class="normal"><a href="#__codelineno-15-21">21</a></span>
-<span class="normal"><a href="#__codelineno-15-22">22</a></span>
-<span class="normal"><a href="#__codelineno-15-23">23</a></span>
-<span class="normal"><a href="#__codelineno-15-24">24</a></span>
-<span class="normal"><a href="#__codelineno-15-25">25</a></span>
-<span class="normal"><a href="#__codelineno-15-26">26</a></span>
-<span class="normal"><a href="#__codelineno-15-27">27</a></span>
-<span class="normal"><a href="#__codelineno-15-28">28</a></span>
-<span class="normal"><a href="#__codelineno-15-29">29</a></span>
-<span class="normal"><a href="#__codelineno-15-30">30</a></span>
-<span class="normal"><a href="#__codelineno-15-31">31</a></span>
-<span class="normal"><a href="#__codelineno-15-32">32</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1"></a><span class="kn">import</span><span class="w"> </span><span class="p">(</span>
-</span><span id="__span-15-2"><a id="__codelineno-15-2" name="__codelineno-15-2"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/agent&quot;</span>
-</span><span id="__span-15-3"><a id="__codelineno-15-3" name="__codelineno-15-3"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/agent/llmagent&quot;</span>
-</span><span id="__span-15-4"><a id="__codelineno-15-4" name="__codelineno-15-4"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/tool&quot;</span>
-</span><span id="__span-15-5"><a id="__codelineno-15-5" name="__codelineno-15-5"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/tool/function&quot;</span>
-</span><span id="__span-15-6"><a id="__codelineno-15-6" name="__codelineno-15-6"></a><span class="p">)</span>
-</span><span id="__span-15-7"><a id="__codelineno-15-7" name="__codelineno-15-7"></a>
-</span><span id="__span-15-8"><a id="__codelineno-15-8" name="__codelineno-15-8"></a><span class="c1">// 创建 SubAgent</span>
-</span><span id="__span-15-9"><a id="__codelineno-15-9" name="__codelineno-15-9"></a><span class="nx">mathAgent</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">New</span><span class="p">(</span>
-</span><span id="__span-15-10"><a id="__codelineno-15-10" name="__codelineno-15-10"></a><span class="w">    </span><span class="s">&quot;math-agent&quot;</span><span class="p">,</span>
-</span><span id="__span-15-11"><a id="__codelineno-15-11" name="__codelineno-15-11"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithModel</span><span class="p">(</span><span class="nx">modelInstance</span><span class="p">),</span>
-</span><span id="__span-15-12"><a id="__codelineno-15-12" name="__codelineno-15-12"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithDescription</span><span class="p">(</span><span class="s">&quot;处理数学计算和数值问题&quot;</span><span class="p">),</span>
-</span><span id="__span-15-13"><a id="__codelineno-15-13" name="__codelineno-15-13"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithInstruction</span><span class="p">(</span><span class="s">&quot;你是数学专家，专注于数学运算和数值推理...&quot;</span><span class="p">),</span>
-</span><span id="__span-15-14"><a id="__codelineno-15-14" name="__codelineno-15-14"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithTools</span><span class="p">([]</span><span class="nx">tool</span><span class="p">.</span><span class="nx">Tool</span><span class="p">{</span><span class="nx">calculatorTool</span><span class="p">}),</span>
-</span><span id="__span-15-15"><a id="__codelineno-15-15" name="__codelineno-15-15"></a><span class="p">)</span>
-</span><span id="__span-15-16"><a id="__codelineno-15-16" name="__codelineno-15-16"></a>
-</span><span id="__span-15-17"><a id="__codelineno-15-17" name="__codelineno-15-17"></a><span class="nx">weatherAgent</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">New</span><span class="p">(</span>
-</span><span id="__span-15-18"><a id="__codelineno-15-18" name="__codelineno-15-18"></a><span class="w">    </span><span class="s">&quot;weather-agent&quot;</span><span class="p">,</span>
-</span><span id="__span-15-19"><a id="__codelineno-15-19" name="__codelineno-15-19"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithModel</span><span class="p">(</span><span class="nx">modelInstance</span><span class="p">),</span>
-</span><span id="__span-15-20"><a id="__codelineno-15-20" name="__codelineno-15-20"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithDescription</span><span class="p">(</span><span class="s">&quot;提供天气信息和建议&quot;</span><span class="p">),</span>
-</span><span id="__span-15-21"><a id="__codelineno-15-21" name="__codelineno-15-21"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithInstruction</span><span class="p">(</span><span class="s">&quot;你是天气专家，提供天气分析和活动建议...&quot;</span><span class="p">),</span>
-</span><span id="__span-15-22"><a id="__codelineno-15-22" name="__codelineno-15-22"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithTools</span><span class="p">([]</span><span class="nx">tool</span><span class="p">.</span><span class="nx">Tool</span><span class="p">{</span><span class="nx">weatherTool</span><span class="p">}),</span>
-</span><span id="__span-15-23"><a id="__codelineno-15-23" name="__codelineno-15-23"></a><span class="p">)</span>
-</span><span id="__span-15-24"><a id="__codelineno-15-24" name="__codelineno-15-24"></a>
-</span><span id="__span-15-25"><a id="__codelineno-15-25" name="__codelineno-15-25"></a><span class="c1">// 创建协调者 Agent，使用 WithSubAgents 配置 SubAgent</span>
-</span><span id="__span-15-26"><a id="__codelineno-15-26" name="__codelineno-15-26"></a><span class="nx">coordinatorAgent</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">New</span><span class="p">(</span>
-</span><span id="__span-15-27"><a id="__codelineno-15-27" name="__codelineno-15-27"></a><span class="w">    </span><span class="s">&quot;coordinator-agent&quot;</span><span class="p">,</span>
-</span><span id="__span-15-28"><a id="__codelineno-15-28" name="__codelineno-15-28"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithModel</span><span class="p">(</span><span class="nx">modelInstance</span><span class="p">),</span>
-</span><span id="__span-15-29"><a id="__codelineno-15-29" name="__codelineno-15-29"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithDescription</span><span class="p">(</span><span class="s">&quot;协调者 Agent，负责任务委托&quot;</span><span class="p">),</span>
-</span><span id="__span-15-30"><a id="__codelineno-15-30" name="__codelineno-15-30"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithInstruction</span><span class="p">(</span><span class="s">&quot;你是协调者，分析用户请求并委托给合适的专家...&quot;</span><span class="p">),</span>
-</span><span id="__span-15-31"><a id="__codelineno-15-31" name="__codelineno-15-31"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithSubAgents</span><span class="p">([]</span><span class="nx">agent</span><span class="p">.</span><span class="nx">Agent</span><span class="p">{</span><span class="nx">mathAgent</span><span class="p">,</span><span class="w"> </span><span class="nx">weatherAgent</span><span class="p">}),</span>
-</span><span id="__span-15-32"><a id="__codelineno-15-32" name="__codelineno-15-32"></a><span class="p">)</span>
-</span></code></pre></div></td></tr></table></div>
-<h4 id="subagent-a2a">动态 SubAgent 发现（结合 A2A）</h4>
-<p>在真实系统中，SubAgent 往往是通过 A2A 协议暴露的远程 Agent，
-它们的列表会随着时间变化（例如从注册中心动态上下线）。</p>
-<p>为支持这一场景，<code>LLMAgent</code> 实现了 <code>agent.SubAgentSetter</code>
-接口，可以在运行时刷新 SubAgent 列表，而无需重建协调者：</p>
+<h4 id="_26">基本用法</h4>
 <div class="language-go highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-16-1"> 1</a></span>
 <span class="normal"><a href="#__codelineno-16-2"> 2</a></span>
 <span class="normal"><a href="#__codelineno-16-3"> 3</a></span>
@@ -4504,44 +5135,113 @@ Escalation 只是指控制流上抛 / 中止循环，并不是“版本升级”
 <span class="normal"><a href="#__codelineno-16-29">29</a></span>
 <span class="normal"><a href="#__codelineno-16-30">30</a></span>
 <span class="normal"><a href="#__codelineno-16-31">31</a></span>
-<span class="normal"><a href="#__codelineno-16-32">32</a></span>
-<span class="normal"><a href="#__codelineno-16-33">33</a></span>
-<span class="normal"><a href="#__codelineno-16-34">34</a></span>
-<span class="normal"><a href="#__codelineno-16-35">35</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1"></a><span class="kn">import</span><span class="w"> </span><span class="p">(</span>
-</span><span id="__span-16-2"><a id="__codelineno-16-2" name="__codelineno-16-2"></a><span class="w">    </span><span class="s">&quot;fmt&quot;</span>
-</span><span id="__span-16-3"><a id="__codelineno-16-3" name="__codelineno-16-3"></a><span class="w">    </span><span class="s">&quot;context&quot;</span>
-</span><span id="__span-16-4"><a id="__codelineno-16-4" name="__codelineno-16-4"></a>
-</span><span id="__span-16-5"><a id="__codelineno-16-5" name="__codelineno-16-5"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/agent&quot;</span>
-</span><span id="__span-16-6"><a id="__codelineno-16-6" name="__codelineno-16-6"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/agent/a2aagent&quot;</span>
-</span><span id="__span-16-7"><a id="__codelineno-16-7" name="__codelineno-16-7"></a><span class="p">)</span>
-</span><span id="__span-16-8"><a id="__codelineno-16-8" name="__codelineno-16-8"></a>
-</span><span id="__span-16-9"><a id="__codelineno-16-9" name="__codelineno-16-9"></a><span class="kd">func</span><span class="w"> </span><span class="nx">refreshSubAgents</span><span class="p">(</span><span class="nx">ctx</span><span class="w"> </span><span class="nx">context</span><span class="p">.</span><span class="nx">Context</span><span class="p">,</span><span class="w"> </span><span class="nx">ag</span><span class="w"> </span><span class="nx">agent</span><span class="p">.</span><span class="nx">Agent</span><span class="p">)</span><span class="w"> </span><span class="kt">error</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-16-10"><a id="__codelineno-16-10" name="__codelineno-16-10"></a><span class="w">    </span><span class="nx">cfg</span><span class="p">,</span><span class="w"> </span><span class="nx">ok</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">ag</span><span class="p">.(</span><span class="nx">agent</span><span class="p">.</span><span class="nx">SubAgentSetter</span><span class="p">)</span>
-</span><span id="__span-16-11"><a id="__codelineno-16-11" name="__codelineno-16-11"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">!</span><span class="nx">ok</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-16-12"><a id="__codelineno-16-12" name="__codelineno-16-12"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="nx">fmt</span><span class="p">.</span><span class="nx">Errorf</span><span class="p">(</span><span class="s">&quot;agent does not support dynamic SubAgents&quot;</span><span class="p">)</span>
-</span><span id="__span-16-13"><a id="__codelineno-16-13" name="__codelineno-16-13"></a><span class="w">    </span><span class="p">}</span>
-</span><span id="__span-16-14"><a id="__codelineno-16-14" name="__codelineno-16-14"></a>
-</span><span id="__span-16-15"><a id="__codelineno-16-15" name="__codelineno-16-15"></a><span class="w">    </span><span class="c1">// 1. 从注册中心或配置源发现远程 Agent。</span>
-</span><span id="__span-16-16"><a id="__codelineno-16-16" name="__codelineno-16-16"></a><span class="w">    </span><span class="nx">urls</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="p">[]</span><span class="kt">string</span><span class="p">{</span>
-</span><span id="__span-16-17"><a id="__codelineno-16-17" name="__codelineno-16-17"></a><span class="w">        </span><span class="s">&quot;http://localhost:8087/&quot;</span><span class="p">,</span>
-</span><span id="__span-16-18"><a id="__codelineno-16-18" name="__codelineno-16-18"></a><span class="w">        </span><span class="s">&quot;http://localhost:8088/&quot;</span><span class="p">,</span>
-</span><span id="__span-16-19"><a id="__codelineno-16-19" name="__codelineno-16-19"></a><span class="w">    </span><span class="p">}</span>
-</span><span id="__span-16-20"><a id="__codelineno-16-20" name="__codelineno-16-20"></a>
-</span><span id="__span-16-21"><a id="__codelineno-16-21" name="__codelineno-16-21"></a><span class="w">    </span><span class="c1">// 2. 为每个远程 Agent 构建 A2AAgent 代理。</span>
-</span><span id="__span-16-22"><a id="__codelineno-16-22" name="__codelineno-16-22"></a><span class="w">    </span><span class="nx">subAgents</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nb">make</span><span class="p">([]</span><span class="nx">agent</span><span class="p">.</span><span class="nx">Agent</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="nb">len</span><span class="p">(</span><span class="nx">urls</span><span class="p">))</span>
-</span><span id="__span-16-23"><a id="__codelineno-16-23" name="__codelineno-16-23"></a><span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="nx">_</span><span class="p">,</span><span class="w"> </span><span class="nx">url</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="k">range</span><span class="w"> </span><span class="nx">urls</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-16-24"><a id="__codelineno-16-24" name="__codelineno-16-24"></a><span class="w">        </span><span class="nx">a2</span><span class="p">,</span><span class="w"> </span><span class="nx">err</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">a2aagent</span><span class="p">.</span><span class="nx">New</span><span class="p">(</span><span class="nx">a2aagent</span><span class="p">.</span><span class="nx">WithAgentCardURL</span><span class="p">(</span><span class="nx">url</span><span class="p">))</span>
-</span><span id="__span-16-25"><a id="__codelineno-16-25" name="__codelineno-16-25"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="nx">err</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="kc">nil</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-16-26"><a id="__codelineno-16-26" name="__codelineno-16-26"></a><span class="w">            </span><span class="c1">// 生产环境中建议记录日志并跳过失败项。</span>
-</span><span id="__span-16-27"><a id="__codelineno-16-27" name="__codelineno-16-27"></a><span class="w">            </span><span class="k">continue</span>
-</span><span id="__span-16-28"><a id="__codelineno-16-28" name="__codelineno-16-28"></a><span class="w">        </span><span class="p">}</span>
-</span><span id="__span-16-29"><a id="__codelineno-16-29" name="__codelineno-16-29"></a><span class="w">        </span><span class="nx">subAgents</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nb">append</span><span class="p">(</span><span class="nx">subAgents</span><span class="p">,</span><span class="w"> </span><span class="nx">a2</span><span class="p">)</span>
-</span><span id="__span-16-30"><a id="__codelineno-16-30" name="__codelineno-16-30"></a><span class="w">    </span><span class="p">}</span>
-</span><span id="__span-16-31"><a id="__codelineno-16-31" name="__codelineno-16-31"></a>
-</span><span id="__span-16-32"><a id="__codelineno-16-32" name="__codelineno-16-32"></a><span class="w">    </span><span class="c1">// 3. 原子性地替换协调者上的 SubAgents。</span>
-</span><span id="__span-16-33"><a id="__codelineno-16-33" name="__codelineno-16-33"></a><span class="w">    </span><span class="nx">cfg</span><span class="p">.</span><span class="nx">SetSubAgents</span><span class="p">(</span><span class="nx">subAgents</span><span class="p">)</span>
-</span><span id="__span-16-34"><a id="__codelineno-16-34" name="__codelineno-16-34"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="kc">nil</span>
-</span><span id="__span-16-35"><a id="__codelineno-16-35" name="__codelineno-16-35"></a><span class="p">}</span>
+<span class="normal"><a href="#__codelineno-16-32">32</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1"></a><span class="kn">import</span><span class="w"> </span><span class="p">(</span>
+</span><span id="__span-16-2"><a id="__codelineno-16-2" name="__codelineno-16-2"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/agent&quot;</span>
+</span><span id="__span-16-3"><a id="__codelineno-16-3" name="__codelineno-16-3"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/agent/llmagent&quot;</span>
+</span><span id="__span-16-4"><a id="__codelineno-16-4" name="__codelineno-16-4"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/tool&quot;</span>
+</span><span id="__span-16-5"><a id="__codelineno-16-5" name="__codelineno-16-5"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/tool/function&quot;</span>
+</span><span id="__span-16-6"><a id="__codelineno-16-6" name="__codelineno-16-6"></a><span class="p">)</span>
+</span><span id="__span-16-7"><a id="__codelineno-16-7" name="__codelineno-16-7"></a>
+</span><span id="__span-16-8"><a id="__codelineno-16-8" name="__codelineno-16-8"></a><span class="c1">// 创建 SubAgent</span>
+</span><span id="__span-16-9"><a id="__codelineno-16-9" name="__codelineno-16-9"></a><span class="nx">mathAgent</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">New</span><span class="p">(</span>
+</span><span id="__span-16-10"><a id="__codelineno-16-10" name="__codelineno-16-10"></a><span class="w">    </span><span class="s">&quot;math-agent&quot;</span><span class="p">,</span>
+</span><span id="__span-16-11"><a id="__codelineno-16-11" name="__codelineno-16-11"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithModel</span><span class="p">(</span><span class="nx">modelInstance</span><span class="p">),</span>
+</span><span id="__span-16-12"><a id="__codelineno-16-12" name="__codelineno-16-12"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithDescription</span><span class="p">(</span><span class="s">&quot;处理数学计算和数值问题&quot;</span><span class="p">),</span>
+</span><span id="__span-16-13"><a id="__codelineno-16-13" name="__codelineno-16-13"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithInstruction</span><span class="p">(</span><span class="s">&quot;你是数学专家，专注于数学运算和数值推理...&quot;</span><span class="p">),</span>
+</span><span id="__span-16-14"><a id="__codelineno-16-14" name="__codelineno-16-14"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithTools</span><span class="p">([]</span><span class="nx">tool</span><span class="p">.</span><span class="nx">Tool</span><span class="p">{</span><span class="nx">calculatorTool</span><span class="p">}),</span>
+</span><span id="__span-16-15"><a id="__codelineno-16-15" name="__codelineno-16-15"></a><span class="p">)</span>
+</span><span id="__span-16-16"><a id="__codelineno-16-16" name="__codelineno-16-16"></a>
+</span><span id="__span-16-17"><a id="__codelineno-16-17" name="__codelineno-16-17"></a><span class="nx">weatherAgent</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">New</span><span class="p">(</span>
+</span><span id="__span-16-18"><a id="__codelineno-16-18" name="__codelineno-16-18"></a><span class="w">    </span><span class="s">&quot;weather-agent&quot;</span><span class="p">,</span>
+</span><span id="__span-16-19"><a id="__codelineno-16-19" name="__codelineno-16-19"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithModel</span><span class="p">(</span><span class="nx">modelInstance</span><span class="p">),</span>
+</span><span id="__span-16-20"><a id="__codelineno-16-20" name="__codelineno-16-20"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithDescription</span><span class="p">(</span><span class="s">&quot;提供天气信息和建议&quot;</span><span class="p">),</span>
+</span><span id="__span-16-21"><a id="__codelineno-16-21" name="__codelineno-16-21"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithInstruction</span><span class="p">(</span><span class="s">&quot;你是天气专家，提供天气分析和活动建议...&quot;</span><span class="p">),</span>
+</span><span id="__span-16-22"><a id="__codelineno-16-22" name="__codelineno-16-22"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithTools</span><span class="p">([]</span><span class="nx">tool</span><span class="p">.</span><span class="nx">Tool</span><span class="p">{</span><span class="nx">weatherTool</span><span class="p">}),</span>
+</span><span id="__span-16-23"><a id="__codelineno-16-23" name="__codelineno-16-23"></a><span class="p">)</span>
+</span><span id="__span-16-24"><a id="__codelineno-16-24" name="__codelineno-16-24"></a>
+</span><span id="__span-16-25"><a id="__codelineno-16-25" name="__codelineno-16-25"></a><span class="c1">// 创建协调者 Agent，使用 WithSubAgents 配置 SubAgent</span>
+</span><span id="__span-16-26"><a id="__codelineno-16-26" name="__codelineno-16-26"></a><span class="nx">coordinatorAgent</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">New</span><span class="p">(</span>
+</span><span id="__span-16-27"><a id="__codelineno-16-27" name="__codelineno-16-27"></a><span class="w">    </span><span class="s">&quot;coordinator-agent&quot;</span><span class="p">,</span>
+</span><span id="__span-16-28"><a id="__codelineno-16-28" name="__codelineno-16-28"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithModel</span><span class="p">(</span><span class="nx">modelInstance</span><span class="p">),</span>
+</span><span id="__span-16-29"><a id="__codelineno-16-29" name="__codelineno-16-29"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithDescription</span><span class="p">(</span><span class="s">&quot;协调者 Agent，负责任务委托&quot;</span><span class="p">),</span>
+</span><span id="__span-16-30"><a id="__codelineno-16-30" name="__codelineno-16-30"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithInstruction</span><span class="p">(</span><span class="s">&quot;你是协调者，分析用户请求并委托给合适的专家...&quot;</span><span class="p">),</span>
+</span><span id="__span-16-31"><a id="__codelineno-16-31" name="__codelineno-16-31"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithSubAgents</span><span class="p">([]</span><span class="nx">agent</span><span class="p">.</span><span class="nx">Agent</span><span class="p">{</span><span class="nx">mathAgent</span><span class="p">,</span><span class="w"> </span><span class="nx">weatherAgent</span><span class="p">}),</span>
+</span><span id="__span-16-32"><a id="__codelineno-16-32" name="__codelineno-16-32"></a><span class="p">)</span>
+</span></code></pre></div></td></tr></table></div>
+<h4 id="subagent-a2a">动态 SubAgent 发现（结合 A2A）</h4>
+<p>在真实系统中，SubAgent 往往是通过 A2A 协议暴露的远程 Agent，
+它们的列表会随着时间变化（例如从注册中心动态上下线）。</p>
+<p>为支持这一场景，<code>LLMAgent</code> 实现了 <code>agent.SubAgentSetter</code>
+接口，可以在运行时刷新 SubAgent 列表，而无需重建协调者：</p>
+<div class="language-go highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-17-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-17-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-17-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-17-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-17-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-17-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-17-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-17-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-17-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-17-10">10</a></span>
+<span class="normal"><a href="#__codelineno-17-11">11</a></span>
+<span class="normal"><a href="#__codelineno-17-12">12</a></span>
+<span class="normal"><a href="#__codelineno-17-13">13</a></span>
+<span class="normal"><a href="#__codelineno-17-14">14</a></span>
+<span class="normal"><a href="#__codelineno-17-15">15</a></span>
+<span class="normal"><a href="#__codelineno-17-16">16</a></span>
+<span class="normal"><a href="#__codelineno-17-17">17</a></span>
+<span class="normal"><a href="#__codelineno-17-18">18</a></span>
+<span class="normal"><a href="#__codelineno-17-19">19</a></span>
+<span class="normal"><a href="#__codelineno-17-20">20</a></span>
+<span class="normal"><a href="#__codelineno-17-21">21</a></span>
+<span class="normal"><a href="#__codelineno-17-22">22</a></span>
+<span class="normal"><a href="#__codelineno-17-23">23</a></span>
+<span class="normal"><a href="#__codelineno-17-24">24</a></span>
+<span class="normal"><a href="#__codelineno-17-25">25</a></span>
+<span class="normal"><a href="#__codelineno-17-26">26</a></span>
+<span class="normal"><a href="#__codelineno-17-27">27</a></span>
+<span class="normal"><a href="#__codelineno-17-28">28</a></span>
+<span class="normal"><a href="#__codelineno-17-29">29</a></span>
+<span class="normal"><a href="#__codelineno-17-30">30</a></span>
+<span class="normal"><a href="#__codelineno-17-31">31</a></span>
+<span class="normal"><a href="#__codelineno-17-32">32</a></span>
+<span class="normal"><a href="#__codelineno-17-33">33</a></span>
+<span class="normal"><a href="#__codelineno-17-34">34</a></span>
+<span class="normal"><a href="#__codelineno-17-35">35</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1"></a><span class="kn">import</span><span class="w"> </span><span class="p">(</span>
+</span><span id="__span-17-2"><a id="__codelineno-17-2" name="__codelineno-17-2"></a><span class="w">    </span><span class="s">&quot;fmt&quot;</span>
+</span><span id="__span-17-3"><a id="__codelineno-17-3" name="__codelineno-17-3"></a><span class="w">    </span><span class="s">&quot;context&quot;</span>
+</span><span id="__span-17-4"><a id="__codelineno-17-4" name="__codelineno-17-4"></a>
+</span><span id="__span-17-5"><a id="__codelineno-17-5" name="__codelineno-17-5"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/agent&quot;</span>
+</span><span id="__span-17-6"><a id="__codelineno-17-6" name="__codelineno-17-6"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/agent/a2aagent&quot;</span>
+</span><span id="__span-17-7"><a id="__codelineno-17-7" name="__codelineno-17-7"></a><span class="p">)</span>
+</span><span id="__span-17-8"><a id="__codelineno-17-8" name="__codelineno-17-8"></a>
+</span><span id="__span-17-9"><a id="__codelineno-17-9" name="__codelineno-17-9"></a><span class="kd">func</span><span class="w"> </span><span class="nx">refreshSubAgents</span><span class="p">(</span><span class="nx">ctx</span><span class="w"> </span><span class="nx">context</span><span class="p">.</span><span class="nx">Context</span><span class="p">,</span><span class="w"> </span><span class="nx">ag</span><span class="w"> </span><span class="nx">agent</span><span class="p">.</span><span class="nx">Agent</span><span class="p">)</span><span class="w"> </span><span class="kt">error</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-17-10"><a id="__codelineno-17-10" name="__codelineno-17-10"></a><span class="w">    </span><span class="nx">cfg</span><span class="p">,</span><span class="w"> </span><span class="nx">ok</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">ag</span><span class="p">.(</span><span class="nx">agent</span><span class="p">.</span><span class="nx">SubAgentSetter</span><span class="p">)</span>
+</span><span id="__span-17-11"><a id="__codelineno-17-11" name="__codelineno-17-11"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">!</span><span class="nx">ok</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-17-12"><a id="__codelineno-17-12" name="__codelineno-17-12"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="nx">fmt</span><span class="p">.</span><span class="nx">Errorf</span><span class="p">(</span><span class="s">&quot;agent does not support dynamic SubAgents&quot;</span><span class="p">)</span>
+</span><span id="__span-17-13"><a id="__codelineno-17-13" name="__codelineno-17-13"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-17-14"><a id="__codelineno-17-14" name="__codelineno-17-14"></a>
+</span><span id="__span-17-15"><a id="__codelineno-17-15" name="__codelineno-17-15"></a><span class="w">    </span><span class="c1">// 1. 从注册中心或配置源发现远程 Agent。</span>
+</span><span id="__span-17-16"><a id="__codelineno-17-16" name="__codelineno-17-16"></a><span class="w">    </span><span class="nx">urls</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="p">[]</span><span class="kt">string</span><span class="p">{</span>
+</span><span id="__span-17-17"><a id="__codelineno-17-17" name="__codelineno-17-17"></a><span class="w">        </span><span class="s">&quot;http://localhost:8087/&quot;</span><span class="p">,</span>
+</span><span id="__span-17-18"><a id="__codelineno-17-18" name="__codelineno-17-18"></a><span class="w">        </span><span class="s">&quot;http://localhost:8088/&quot;</span><span class="p">,</span>
+</span><span id="__span-17-19"><a id="__codelineno-17-19" name="__codelineno-17-19"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-17-20"><a id="__codelineno-17-20" name="__codelineno-17-20"></a>
+</span><span id="__span-17-21"><a id="__codelineno-17-21" name="__codelineno-17-21"></a><span class="w">    </span><span class="c1">// 2. 为每个远程 Agent 构建 A2AAgent 代理。</span>
+</span><span id="__span-17-22"><a id="__codelineno-17-22" name="__codelineno-17-22"></a><span class="w">    </span><span class="nx">subAgents</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nb">make</span><span class="p">([]</span><span class="nx">agent</span><span class="p">.</span><span class="nx">Agent</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="nb">len</span><span class="p">(</span><span class="nx">urls</span><span class="p">))</span>
+</span><span id="__span-17-23"><a id="__codelineno-17-23" name="__codelineno-17-23"></a><span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="nx">_</span><span class="p">,</span><span class="w"> </span><span class="nx">url</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="k">range</span><span class="w"> </span><span class="nx">urls</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-17-24"><a id="__codelineno-17-24" name="__codelineno-17-24"></a><span class="w">        </span><span class="nx">a2</span><span class="p">,</span><span class="w"> </span><span class="nx">err</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">a2aagent</span><span class="p">.</span><span class="nx">New</span><span class="p">(</span><span class="nx">a2aagent</span><span class="p">.</span><span class="nx">WithAgentCardURL</span><span class="p">(</span><span class="nx">url</span><span class="p">))</span>
+</span><span id="__span-17-25"><a id="__codelineno-17-25" name="__codelineno-17-25"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="nx">err</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="kc">nil</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-17-26"><a id="__codelineno-17-26" name="__codelineno-17-26"></a><span class="w">            </span><span class="c1">// 生产环境中建议记录日志并跳过失败项。</span>
+</span><span id="__span-17-27"><a id="__codelineno-17-27" name="__codelineno-17-27"></a><span class="w">            </span><span class="k">continue</span>
+</span><span id="__span-17-28"><a id="__codelineno-17-28" name="__codelineno-17-28"></a><span class="w">        </span><span class="p">}</span>
+</span><span id="__span-17-29"><a id="__codelineno-17-29" name="__codelineno-17-29"></a><span class="w">        </span><span class="nx">subAgents</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nb">append</span><span class="p">(</span><span class="nx">subAgents</span><span class="p">,</span><span class="w"> </span><span class="nx">a2</span><span class="p">)</span>
+</span><span id="__span-17-30"><a id="__codelineno-17-30" name="__codelineno-17-30"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-17-31"><a id="__codelineno-17-31" name="__codelineno-17-31"></a>
+</span><span id="__span-17-32"><a id="__codelineno-17-32" name="__codelineno-17-32"></a><span class="w">    </span><span class="c1">// 3. 原子性地替换协调者上的 SubAgents。</span>
+</span><span id="__span-17-33"><a id="__codelineno-17-33" name="__codelineno-17-33"></a><span class="w">    </span><span class="nx">cfg</span><span class="p">.</span><span class="nx">SetSubAgents</span><span class="p">(</span><span class="nx">subAgents</span><span class="p">)</span>
+</span><span id="__span-17-34"><a id="__codelineno-17-34" name="__codelineno-17-34"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="kc">nil</span>
+</span><span id="__span-17-35"><a id="__codelineno-17-35" name="__codelineno-17-35"></a><span class="p">}</span>
 </span></code></pre></div></td></tr></table></div>
 <p>这种模式可以让你：</p>
 <ul>
@@ -4550,87 +5250,23 @@ Escalation 只是指控制流上抛 / 中止循环，并不是“版本升级”
 <li>保持 <code>Runner</code> 和会话管理逻辑不变，因为协调者始终是同一
   个 Agent 实例</li>
 </ul>
-<h4 id="agent_1">Agent委托架构</h4>
-<div class="language-text highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-17-1">1</a></span>
-<span class="normal"><a href="#__codelineno-17-2">2</a></span>
-<span class="normal"><a href="#__codelineno-17-3">3</a></span>
-<span class="normal"><a href="#__codelineno-17-4">4</a></span>
-<span class="normal"><a href="#__codelineno-17-5">5</a></span>
-<span class="normal"><a href="#__codelineno-17-6">6</a></span>
-<span class="normal"><a href="#__codelineno-17-7">7</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1"></a>协调者 Agent (主入口)
-</span><span id="__span-17-2"><a id="__codelineno-17-2" name="__codelineno-17-2"></a>├── 分析用户请求
-</span><span id="__span-17-3"><a id="__codelineno-17-3" name="__codelineno-17-3"></a>├── 选择合适的 SubAgent
-</span><span id="__span-17-4"><a id="__codelineno-17-4" name="__codelineno-17-4"></a>└── 使用 transfer_to_agent 工具委托任务
-</span><span id="__span-17-5"><a id="__codelineno-17-5" name="__codelineno-17-5"></a>    ├── 数学 SubAgent (数学计算)
-</span><span id="__span-17-6"><a id="__codelineno-17-6" name="__codelineno-17-6"></a>    ├── 天气 SubAgent (天气信息)
-</span><span id="__span-17-7"><a id="__codelineno-17-7" name="__codelineno-17-7"></a>    └── 研究 SubAgent (信息搜索)
+<h4 id="agent_2">Agent委托架构</h4>
+<div class="language-text highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-18-1">1</a></span>
+<span class="normal"><a href="#__codelineno-18-2">2</a></span>
+<span class="normal"><a href="#__codelineno-18-3">3</a></span>
+<span class="normal"><a href="#__codelineno-18-4">4</a></span>
+<span class="normal"><a href="#__codelineno-18-5">5</a></span>
+<span class="normal"><a href="#__codelineno-18-6">6</a></span>
+<span class="normal"><a href="#__codelineno-18-7">7</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1"></a>协调者 Agent (主入口)
+</span><span id="__span-18-2"><a id="__codelineno-18-2" name="__codelineno-18-2"></a>├── 分析用户请求
+</span><span id="__span-18-3"><a id="__codelineno-18-3" name="__codelineno-18-3"></a>├── 选择合适的 SubAgent
+</span><span id="__span-18-4"><a id="__codelineno-18-4" name="__codelineno-18-4"></a>└── 使用 transfer_to_agent 工具委托任务
+</span><span id="__span-18-5"><a id="__codelineno-18-5" name="__codelineno-18-5"></a>    ├── 数学 SubAgent (数学计算)
+</span><span id="__span-18-6"><a id="__codelineno-18-6" name="__codelineno-18-6"></a>    ├── 天气 SubAgent (天气信息)
+</span><span id="__span-18-7"><a id="__codelineno-18-7" name="__codelineno-18-7"></a>    └── 研究 SubAgent (信息搜索)
 </span></code></pre></div></td></tr></table></div>
-<h4 id="_26">示例会话</h4>
-<div class="language-text highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-18-1"> 1</a></span>
-<span class="normal"><a href="#__codelineno-18-2"> 2</a></span>
-<span class="normal"><a href="#__codelineno-18-3"> 3</a></span>
-<span class="normal"><a href="#__codelineno-18-4"> 4</a></span>
-<span class="normal"><a href="#__codelineno-18-5"> 5</a></span>
-<span class="normal"><a href="#__codelineno-18-6"> 6</a></span>
-<span class="normal"><a href="#__codelineno-18-7"> 7</a></span>
-<span class="normal"><a href="#__codelineno-18-8"> 8</a></span>
-<span class="normal"><a href="#__codelineno-18-9"> 9</a></span>
-<span class="normal"><a href="#__codelineno-18-10">10</a></span>
-<span class="normal"><a href="#__codelineno-18-11">11</a></span>
-<span class="normal"><a href="#__codelineno-18-12">12</a></span>
-<span class="normal"><a href="#__codelineno-18-13">13</a></span>
-<span class="normal"><a href="#__codelineno-18-14">14</a></span>
-<span class="normal"><a href="#__codelineno-18-15">15</a></span>
-<span class="normal"><a href="#__codelineno-18-16">16</a></span>
-<span class="normal"><a href="#__codelineno-18-17">17</a></span>
-<span class="normal"><a href="#__codelineno-18-18">18</a></span>
-<span class="normal"><a href="#__codelineno-18-19">19</a></span>
-<span class="normal"><a href="#__codelineno-18-20">20</a></span>
-<span class="normal"><a href="#__codelineno-18-21">21</a></span>
-<span class="normal"><a href="#__codelineno-18-22">22</a></span>
-<span class="normal"><a href="#__codelineno-18-23">23</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1"></a>🔄 Agent 委托演示
-</span><span id="__span-18-2"><a id="__codelineno-18-2" name="__codelineno-18-2"></a>可用 SubAgent：math-agent, weather-agent, research-agent
-</span><span id="__span-18-3"><a id="__codelineno-18-3" name="__codelineno-18-3"></a>==================================================
-</span><span id="__span-18-4"><a id="__codelineno-18-4" name="__codelineno-18-4"></a>
-</span><span id="__span-18-5"><a id="__codelineno-18-5" name="__codelineno-18-5"></a>👤 用户：计算复利，本金5000美元，年利率6%，期限8年
-</span><span id="__span-18-6"><a id="__codelineno-18-6" name="__codelineno-18-6"></a>
-</span><span id="__span-18-7"><a id="__codelineno-18-7" name="__codelineno-18-7"></a>🎯 协调者：我将把这个任务委托给我们的数学专家进行准确计算。
-</span><span id="__span-18-8"><a id="__codelineno-18-8" name="__codelineno-18-8"></a>🔄 启动委托...
-</span><span id="__span-18-9"><a id="__codelineno-18-9" name="__codelineno-18-9"></a>🔄 委托事件：将控制权转移给 Agent：math-agent
-</span><span id="__span-18-10"><a id="__codelineno-18-10" name="__codelineno-18-10"></a>
-</span><span id="__span-18-11"><a id="__codelineno-18-11" name="__codelineno-18-11"></a>🧮 数学专家：我将帮助您逐步计算复利。
-</span><span id="__span-18-12"><a id="__codelineno-18-12" name="__codelineno-18-12"></a>🔧 🧮 执行工具：
-</span><span id="__span-18-13"><a id="__codelineno-18-13" name="__codelineno-18-13"></a>   • calculate ({&quot;operation&quot;:&quot;power&quot;,&quot;a&quot;:1.06,&quot;b&quot;:8})
-</span><span id="__span-18-14"><a id="__codelineno-18-14" name="__codelineno-18-14"></a>   ✅ 工具完成
-</span><span id="__span-18-15"><a id="__codelineno-18-15" name="__codelineno-18-15"></a>🔧 🧮 执行工具：
-</span><span id="__span-18-16"><a id="__codelineno-18-16" name="__codelineno-18-16"></a>   • calculate ({&quot;operation&quot;:&quot;multiply&quot;,&quot;a&quot;:5000,&quot;b&quot;:1.593})
-</span><span id="__span-18-17"><a id="__codelineno-18-17" name="__codelineno-18-17"></a>   ✅ 工具完成
-</span><span id="__span-18-18"><a id="__codelineno-18-18" name="__codelineno-18-18"></a>
-</span><span id="__span-18-19"><a id="__codelineno-18-19" name="__codelineno-18-19"></a>复利计算结果：
-</span><span id="__span-18-20"><a id="__codelineno-18-20" name="__codelineno-18-20"></a>- 本金：$5,000
-</span><span id="__span-18-21"><a id="__codelineno-18-21" name="__codelineno-18-21"></a>- 年利率：6%
-</span><span id="__span-18-22"><a id="__codelineno-18-22" name="__codelineno-18-22"></a>- 期限：8年
-</span><span id="__span-18-23"><a id="__codelineno-18-23" name="__codelineno-18-23"></a>- 结果：$7,969.24（利息约$2,969.24）
-</span></code></pre></div></td></tr></table></div>
-<h4 id="_27">跨轮追问用户</h4>
-<p><code>transfer_to_agent</code> 解决的是 <strong>当前这一轮由谁处理</strong>。它本身并不会告诉
-<code>Runner</code>：<strong>下一条用户消息</strong> 应该继续交给谁。</p>
-<p>当 SubAgent 发起追问时，这个问题就会暴露出来：</p>
-<ol>
-<li>coordinator transfer 给某个 SubAgent</li>
-<li>SubAgent 向用户追问缺失信息</li>
-<li>用户在下一次请求里补充信息</li>
-<li>默认情况下，<code>Runner</code> 还是会从常规入口 Agent 开始</li>
-</ol>
-<p>更干净的做法是把这件事做成 <strong>显式</strong>、<strong>一次性</strong> 的路由：</p>
-<ul>
-<li>在 Runner 上开启 <code>runner.WithAwaitUserReplyRouting(true)</code></li>
-<li>对可能追问用户的 Agent，开启
-  <code>llmagent.WithAwaitUserReplyTool(true)</code></li>
-<li>在这些 Agent 的 instruction 里明确要求模型：如果要向用户补字段，
-  先调用 <code>await_user_reply</code>，再发出追问</li>
-</ul>
-<div class="language-go highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-19-1"> 1</a></span>
+<h4 id="_27">示例会话</h4>
+<div class="language-text highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-19-1"> 1</a></span>
 <span class="normal"><a href="#__codelineno-19-2"> 2</a></span>
 <span class="normal"><a href="#__codelineno-19-3"> 3</a></span>
 <span class="normal"><a href="#__codelineno-19-4"> 4</a></span>
@@ -4652,115 +5288,179 @@ Escalation 只是指控制流上抛 / 中止循环，并不是“版本升级”
 <span class="normal"><a href="#__codelineno-19-20">20</a></span>
 <span class="normal"><a href="#__codelineno-19-21">21</a></span>
 <span class="normal"><a href="#__codelineno-19-22">22</a></span>
-<span class="normal"><a href="#__codelineno-19-23">23</a></span>
-<span class="normal"><a href="#__codelineno-19-24">24</a></span>
-<span class="normal"><a href="#__codelineno-19-25">25</a></span>
-<span class="normal"><a href="#__codelineno-19-26">26</a></span>
-<span class="normal"><a href="#__codelineno-19-27">27</a></span>
-<span class="normal"><a href="#__codelineno-19-28">28</a></span>
-<span class="normal"><a href="#__codelineno-19-29">29</a></span>
-<span class="normal"><a href="#__codelineno-19-30">30</a></span>
-<span class="normal"><a href="#__codelineno-19-31">31</a></span>
-<span class="normal"><a href="#__codelineno-19-32">32</a></span>
-<span class="normal"><a href="#__codelineno-19-33">33</a></span>
-<span class="normal"><a href="#__codelineno-19-34">34</a></span>
-<span class="normal"><a href="#__codelineno-19-35">35</a></span>
-<span class="normal"><a href="#__codelineno-19-36">36</a></span>
-<span class="normal"><a href="#__codelineno-19-37">37</a></span>
-<span class="normal"><a href="#__codelineno-19-38">38</a></span>
-<span class="normal"><a href="#__codelineno-19-39">39</a></span>
-<span class="normal"><a href="#__codelineno-19-40">40</a></span>
-<span class="normal"><a href="#__codelineno-19-41">41</a></span>
-<span class="normal"><a href="#__codelineno-19-42">42</a></span>
-<span class="normal"><a href="#__codelineno-19-43">43</a></span>
-<span class="normal"><a href="#__codelineno-19-44">44</a></span>
-<span class="normal"><a href="#__codelineno-19-45">45</a></span>
-<span class="normal"><a href="#__codelineno-19-46">46</a></span>
-<span class="normal"><a href="#__codelineno-19-47">47</a></span>
-<span class="normal"><a href="#__codelineno-19-48">48</a></span>
-<span class="normal"><a href="#__codelineno-19-49">49</a></span>
-<span class="normal"><a href="#__codelineno-19-50">50</a></span>
-<span class="normal"><a href="#__codelineno-19-51">51</a></span>
-<span class="normal"><a href="#__codelineno-19-52">52</a></span>
-<span class="normal"><a href="#__codelineno-19-53">53</a></span>
-<span class="normal"><a href="#__codelineno-19-54">54</a></span>
-<span class="normal"><a href="#__codelineno-19-55">55</a></span>
-<span class="normal"><a href="#__codelineno-19-56">56</a></span>
-<span class="normal"><a href="#__codelineno-19-57">57</a></span>
-<span class="normal"><a href="#__codelineno-19-58">58</a></span>
-<span class="normal"><a href="#__codelineno-19-59">59</a></span>
-<span class="normal"><a href="#__codelineno-19-60">60</a></span>
-<span class="normal"><a href="#__codelineno-19-61">61</a></span>
-<span class="normal"><a href="#__codelineno-19-62">62</a></span>
-<span class="normal"><a href="#__codelineno-19-63">63</a></span>
-<span class="normal"><a href="#__codelineno-19-64">64</a></span>
-<span class="normal"><a href="#__codelineno-19-65">65</a></span>
-<span class="normal"><a href="#__codelineno-19-66">66</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1"></a><span class="kn">import</span><span class="w"> </span><span class="p">(</span>
-</span><span id="__span-19-2"><a id="__codelineno-19-2" name="__codelineno-19-2"></a><span class="w">    </span><span class="s">&quot;context&quot;</span>
-</span><span id="__span-19-3"><a id="__codelineno-19-3" name="__codelineno-19-3"></a>
-</span><span id="__span-19-4"><a id="__codelineno-19-4" name="__codelineno-19-4"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/agent&quot;</span>
-</span><span id="__span-19-5"><a id="__codelineno-19-5" name="__codelineno-19-5"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/agent/llmagent&quot;</span>
-</span><span id="__span-19-6"><a id="__codelineno-19-6" name="__codelineno-19-6"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/model&quot;</span>
-</span><span id="__span-19-7"><a id="__codelineno-19-7" name="__codelineno-19-7"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/runner&quot;</span>
-</span><span id="__span-19-8"><a id="__codelineno-19-8" name="__codelineno-19-8"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/tool&quot;</span>
-</span><span id="__span-19-9"><a id="__codelineno-19-9" name="__codelineno-19-9"></a><span class="p">)</span>
+<span class="normal"><a href="#__codelineno-19-23">23</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1"></a>🔄 Agent 委托演示
+</span><span id="__span-19-2"><a id="__codelineno-19-2" name="__codelineno-19-2"></a>可用 SubAgent：math-agent, weather-agent, research-agent
+</span><span id="__span-19-3"><a id="__codelineno-19-3" name="__codelineno-19-3"></a>==================================================
+</span><span id="__span-19-4"><a id="__codelineno-19-4" name="__codelineno-19-4"></a>
+</span><span id="__span-19-5"><a id="__codelineno-19-5" name="__codelineno-19-5"></a>👤 用户：计算复利，本金5000美元，年利率6%，期限8年
+</span><span id="__span-19-6"><a id="__codelineno-19-6" name="__codelineno-19-6"></a>
+</span><span id="__span-19-7"><a id="__codelineno-19-7" name="__codelineno-19-7"></a>🎯 协调者：我将把这个任务委托给我们的数学专家进行准确计算。
+</span><span id="__span-19-8"><a id="__codelineno-19-8" name="__codelineno-19-8"></a>🔄 启动委托...
+</span><span id="__span-19-9"><a id="__codelineno-19-9" name="__codelineno-19-9"></a>🔄 委托事件：将控制权转移给 Agent：math-agent
 </span><span id="__span-19-10"><a id="__codelineno-19-10" name="__codelineno-19-10"></a>
-</span><span id="__span-19-11"><a id="__codelineno-19-11" name="__codelineno-19-11"></a><span class="nx">profileAgent</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">New</span><span class="p">(</span>
-</span><span id="__span-19-12"><a id="__codelineno-19-12" name="__codelineno-19-12"></a><span class="w">    </span><span class="s">&quot;profile-agent&quot;</span><span class="p">,</span>
-</span><span id="__span-19-13"><a id="__codelineno-19-13" name="__codelineno-19-13"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithModel</span><span class="p">(</span><span class="nx">modelInstance</span><span class="p">),</span>
-</span><span id="__span-19-14"><a id="__codelineno-19-14" name="__codelineno-19-14"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithDescription</span><span class="p">(</span><span class="s">&quot;负责采集并更新客户资料。&quot;</span><span class="p">),</span>
-</span><span id="__span-19-15"><a id="__codelineno-19-15" name="__codelineno-19-15"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithInstruction</span><span class="p">(</span><span class="s">`</span>
-</span><span id="__span-19-16"><a id="__codelineno-19-16" name="__codelineno-19-16"></a><span class="s">你负责更新客户资料。</span>
-</span><span id="__span-19-17"><a id="__codelineno-19-17" name="__codelineno-19-17"></a>
-</span><span id="__span-19-18"><a id="__codelineno-19-18" name="__codelineno-19-18"></a><span class="s">如果缺少必要字段：</span>
-</span><span id="__span-19-19"><a id="__codelineno-19-19" name="__codelineno-19-19"></a><span class="s">1. 先调用 await_user_reply</span>
-</span><span id="__span-19-20"><a id="__codelineno-19-20" name="__codelineno-19-20"></a><span class="s">2. 再向用户提出一个明确的问题</span>
-</span><span id="__span-19-21"><a id="__codelineno-19-21" name="__codelineno-19-21"></a><span class="s">3. 然后等待下一条用户消息</span>
-</span><span id="__span-19-22"><a id="__codelineno-19-22" name="__codelineno-19-22"></a>
-</span><span id="__span-19-23"><a id="__codelineno-19-23" name="__codelineno-19-23"></a><span class="s">字段齐全后，再调用 update_profile。</span>
-</span><span id="__span-19-24"><a id="__codelineno-19-24" name="__codelineno-19-24"></a><span class="s">`</span><span class="p">),</span>
-</span><span id="__span-19-25"><a id="__codelineno-19-25" name="__codelineno-19-25"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithAwaitUserReplyTool</span><span class="p">(</span><span class="kc">true</span><span class="p">),</span>
-</span><span id="__span-19-26"><a id="__codelineno-19-26" name="__codelineno-19-26"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithTools</span><span class="p">([]</span><span class="nx">tool</span><span class="p">.</span><span class="nx">Tool</span><span class="p">{</span><span class="nx">updateProfileTool</span><span class="p">}),</span>
-</span><span id="__span-19-27"><a id="__codelineno-19-27" name="__codelineno-19-27"></a><span class="p">)</span>
-</span><span id="__span-19-28"><a id="__codelineno-19-28" name="__codelineno-19-28"></a>
-</span><span id="__span-19-29"><a id="__codelineno-19-29" name="__codelineno-19-29"></a><span class="nx">coordinatorAgent</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">New</span><span class="p">(</span>
-</span><span id="__span-19-30"><a id="__codelineno-19-30" name="__codelineno-19-30"></a><span class="w">    </span><span class="s">&quot;coordinator-agent&quot;</span><span class="p">,</span>
-</span><span id="__span-19-31"><a id="__codelineno-19-31" name="__codelineno-19-31"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithModel</span><span class="p">(</span><span class="nx">modelInstance</span><span class="p">),</span>
-</span><span id="__span-19-32"><a id="__codelineno-19-32" name="__codelineno-19-32"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithInstruction</span><span class="p">(</span><span class="s">`</span>
-</span><span id="__span-19-33"><a id="__codelineno-19-33" name="__codelineno-19-33"></a><span class="s">用户要更新资料时，直接 transfer 给 profile-agent。</span>
-</span><span id="__span-19-34"><a id="__codelineno-19-34" name="__codelineno-19-34"></a><span class="s">不要自己收集资料字段。</span>
-</span><span id="__span-19-35"><a id="__codelineno-19-35" name="__codelineno-19-35"></a><span class="s">`</span><span class="p">),</span>
-</span><span id="__span-19-36"><a id="__codelineno-19-36" name="__codelineno-19-36"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithSubAgents</span><span class="p">([]</span><span class="nx">agent</span><span class="p">.</span><span class="nx">Agent</span><span class="p">{</span><span class="nx">profileAgent</span><span class="p">}),</span>
-</span><span id="__span-19-37"><a id="__codelineno-19-37" name="__codelineno-19-37"></a><span class="p">)</span>
-</span><span id="__span-19-38"><a id="__codelineno-19-38" name="__codelineno-19-38"></a>
-</span><span id="__span-19-39"><a id="__codelineno-19-39" name="__codelineno-19-39"></a><span class="nx">r</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">runner</span><span class="p">.</span><span class="nx">NewRunner</span><span class="p">(</span>
-</span><span id="__span-19-40"><a id="__codelineno-19-40" name="__codelineno-19-40"></a><span class="w">    </span><span class="s">&quot;crm-app&quot;</span><span class="p">,</span>
-</span><span id="__span-19-41"><a id="__codelineno-19-41" name="__codelineno-19-41"></a><span class="w">    </span><span class="nx">coordinatorAgent</span><span class="p">,</span>
-</span><span id="__span-19-42"><a id="__codelineno-19-42" name="__codelineno-19-42"></a><span class="w">    </span><span class="nx">runner</span><span class="p">.</span><span class="nx">WithAwaitUserReplyRouting</span><span class="p">(</span><span class="kc">true</span><span class="p">),</span>
-</span><span id="__span-19-43"><a id="__codelineno-19-43" name="__codelineno-19-43"></a><span class="p">)</span>
-</span><span id="__span-19-44"><a id="__codelineno-19-44" name="__codelineno-19-44"></a>
-</span><span id="__span-19-45"><a id="__codelineno-19-45" name="__codelineno-19-45"></a><span class="c1">// 第 1 轮：</span>
-</span><span id="__span-19-46"><a id="__codelineno-19-46" name="__codelineno-19-46"></a><span class="c1">// user: &quot;帮我更新资料&quot;</span>
-</span><span id="__span-19-47"><a id="__codelineno-19-47" name="__codelineno-19-47"></a><span class="c1">// coordinator-agent -&gt; transfer_to_agent(profile-agent)</span>
-</span><span id="__span-19-48"><a id="__codelineno-19-48" name="__codelineno-19-48"></a><span class="c1">// profile-agent -&gt; await_user_reply + &quot;请问要保存的手机号是多少？&quot;</span>
-</span><span id="__span-19-49"><a id="__codelineno-19-49" name="__codelineno-19-49"></a>
-</span><span id="__span-19-50"><a id="__codelineno-19-50" name="__codelineno-19-50"></a><span class="c1">// 第 2 轮（同一个 session）：</span>
-</span><span id="__span-19-51"><a id="__codelineno-19-51" name="__codelineno-19-51"></a><span class="c1">// user: &quot;+1-555-0101&quot;</span>
-</span><span id="__span-19-52"><a id="__codelineno-19-52" name="__codelineno-19-52"></a><span class="c1">// Runner 这一轮会直接从 profile-agent 开始。</span>
-</span><span id="__span-19-53"><a id="__codelineno-19-53" name="__codelineno-19-53"></a><span class="nx">events</span><span class="p">,</span><span class="w"> </span><span class="nx">err</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">r</span><span class="p">.</span><span class="nx">Run</span><span class="p">(</span>
-</span><span id="__span-19-54"><a id="__codelineno-19-54" name="__codelineno-19-54"></a><span class="w">    </span><span class="nx">context</span><span class="p">.</span><span class="nx">Background</span><span class="p">(),</span>
-</span><span id="__span-19-55"><a id="__codelineno-19-55" name="__codelineno-19-55"></a><span class="w">    </span><span class="s">&quot;user-1&quot;</span><span class="p">,</span>
-</span><span id="__span-19-56"><a id="__codelineno-19-56" name="__codelineno-19-56"></a><span class="w">    </span><span class="s">&quot;session-1&quot;</span><span class="p">,</span>
-</span><span id="__span-19-57"><a id="__codelineno-19-57" name="__codelineno-19-57"></a><span class="w">    </span><span class="nx">model</span><span class="p">.</span><span class="nx">NewUserMessage</span><span class="p">(</span><span class="s">&quot;+1-555-0101&quot;</span><span class="p">),</span>
-</span><span id="__span-19-58"><a id="__codelineno-19-58" name="__codelineno-19-58"></a><span class="p">)</span>
-</span><span id="__span-19-59"><a id="__codelineno-19-59" name="__codelineno-19-59"></a><span class="k">if</span><span class="w"> </span><span class="nx">err</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="kc">nil</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-19-60"><a id="__codelineno-19-60" name="__codelineno-19-60"></a><span class="w">    </span><span class="c1">// handle error</span>
-</span><span id="__span-19-61"><a id="__codelineno-19-61" name="__codelineno-19-61"></a><span class="p">}</span>
-</span><span id="__span-19-62"><a id="__codelineno-19-62" name="__codelineno-19-62"></a><span class="k">for</span><span class="w"> </span><span class="nx">evt</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="k">range</span><span class="w"> </span><span class="nx">events</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-19-63"><a id="__codelineno-19-63" name="__codelineno-19-63"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="nx">evt</span><span class="p">.</span><span class="nx">IsRunnerCompletion</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-19-64"><a id="__codelineno-19-64" name="__codelineno-19-64"></a><span class="w">        </span><span class="k">break</span>
-</span><span id="__span-19-65"><a id="__codelineno-19-65" name="__codelineno-19-65"></a><span class="w">    </span><span class="p">}</span>
-</span><span id="__span-19-66"><a id="__codelineno-19-66" name="__codelineno-19-66"></a><span class="p">}</span>
+</span><span id="__span-19-11"><a id="__codelineno-19-11" name="__codelineno-19-11"></a>🧮 数学专家：我将帮助您逐步计算复利。
+</span><span id="__span-19-12"><a id="__codelineno-19-12" name="__codelineno-19-12"></a>🔧 🧮 执行工具：
+</span><span id="__span-19-13"><a id="__codelineno-19-13" name="__codelineno-19-13"></a>   • calculate ({&quot;operation&quot;:&quot;power&quot;,&quot;a&quot;:1.06,&quot;b&quot;:8})
+</span><span id="__span-19-14"><a id="__codelineno-19-14" name="__codelineno-19-14"></a>   ✅ 工具完成
+</span><span id="__span-19-15"><a id="__codelineno-19-15" name="__codelineno-19-15"></a>🔧 🧮 执行工具：
+</span><span id="__span-19-16"><a id="__codelineno-19-16" name="__codelineno-19-16"></a>   • calculate ({&quot;operation&quot;:&quot;multiply&quot;,&quot;a&quot;:5000,&quot;b&quot;:1.593})
+</span><span id="__span-19-17"><a id="__codelineno-19-17" name="__codelineno-19-17"></a>   ✅ 工具完成
+</span><span id="__span-19-18"><a id="__codelineno-19-18" name="__codelineno-19-18"></a>
+</span><span id="__span-19-19"><a id="__codelineno-19-19" name="__codelineno-19-19"></a>复利计算结果：
+</span><span id="__span-19-20"><a id="__codelineno-19-20" name="__codelineno-19-20"></a>- 本金：$5,000
+</span><span id="__span-19-21"><a id="__codelineno-19-21" name="__codelineno-19-21"></a>- 年利率：6%
+</span><span id="__span-19-22"><a id="__codelineno-19-22" name="__codelineno-19-22"></a>- 期限：8年
+</span><span id="__span-19-23"><a id="__codelineno-19-23" name="__codelineno-19-23"></a>- 结果：$7,969.24（利息约$2,969.24）
+</span></code></pre></div></td></tr></table></div>
+<h4 id="_28">跨轮追问用户</h4>
+<p><code>transfer_to_agent</code> 解决的是 <strong>当前这一轮由谁处理</strong>。它本身并不会告诉
+<code>Runner</code>：<strong>下一条用户消息</strong> 应该继续交给谁。</p>
+<p>当 SubAgent 发起追问时，这个问题就会暴露出来：</p>
+<ol>
+<li>coordinator transfer 给某个 SubAgent</li>
+<li>SubAgent 向用户追问缺失信息</li>
+<li>用户在下一次请求里补充信息</li>
+<li>默认情况下，<code>Runner</code> 还是会从常规入口 Agent 开始</li>
+</ol>
+<p>更干净的做法是把这件事做成 <strong>显式</strong>、<strong>一次性</strong> 的路由：</p>
+<ul>
+<li>在 Runner 上开启 <code>runner.WithAwaitUserReplyRouting(true)</code></li>
+<li>对可能追问用户的 Agent，开启
+  <code>llmagent.WithAwaitUserReplyTool(true)</code></li>
+<li>在这些 Agent 的 instruction 里明确要求模型：如果要向用户补字段，
+  先调用 <code>await_user_reply</code>，再发出追问</li>
+</ul>
+<div class="language-go highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-20-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-20-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-20-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-20-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-20-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-20-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-20-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-20-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-20-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-20-10">10</a></span>
+<span class="normal"><a href="#__codelineno-20-11">11</a></span>
+<span class="normal"><a href="#__codelineno-20-12">12</a></span>
+<span class="normal"><a href="#__codelineno-20-13">13</a></span>
+<span class="normal"><a href="#__codelineno-20-14">14</a></span>
+<span class="normal"><a href="#__codelineno-20-15">15</a></span>
+<span class="normal"><a href="#__codelineno-20-16">16</a></span>
+<span class="normal"><a href="#__codelineno-20-17">17</a></span>
+<span class="normal"><a href="#__codelineno-20-18">18</a></span>
+<span class="normal"><a href="#__codelineno-20-19">19</a></span>
+<span class="normal"><a href="#__codelineno-20-20">20</a></span>
+<span class="normal"><a href="#__codelineno-20-21">21</a></span>
+<span class="normal"><a href="#__codelineno-20-22">22</a></span>
+<span class="normal"><a href="#__codelineno-20-23">23</a></span>
+<span class="normal"><a href="#__codelineno-20-24">24</a></span>
+<span class="normal"><a href="#__codelineno-20-25">25</a></span>
+<span class="normal"><a href="#__codelineno-20-26">26</a></span>
+<span class="normal"><a href="#__codelineno-20-27">27</a></span>
+<span class="normal"><a href="#__codelineno-20-28">28</a></span>
+<span class="normal"><a href="#__codelineno-20-29">29</a></span>
+<span class="normal"><a href="#__codelineno-20-30">30</a></span>
+<span class="normal"><a href="#__codelineno-20-31">31</a></span>
+<span class="normal"><a href="#__codelineno-20-32">32</a></span>
+<span class="normal"><a href="#__codelineno-20-33">33</a></span>
+<span class="normal"><a href="#__codelineno-20-34">34</a></span>
+<span class="normal"><a href="#__codelineno-20-35">35</a></span>
+<span class="normal"><a href="#__codelineno-20-36">36</a></span>
+<span class="normal"><a href="#__codelineno-20-37">37</a></span>
+<span class="normal"><a href="#__codelineno-20-38">38</a></span>
+<span class="normal"><a href="#__codelineno-20-39">39</a></span>
+<span class="normal"><a href="#__codelineno-20-40">40</a></span>
+<span class="normal"><a href="#__codelineno-20-41">41</a></span>
+<span class="normal"><a href="#__codelineno-20-42">42</a></span>
+<span class="normal"><a href="#__codelineno-20-43">43</a></span>
+<span class="normal"><a href="#__codelineno-20-44">44</a></span>
+<span class="normal"><a href="#__codelineno-20-45">45</a></span>
+<span class="normal"><a href="#__codelineno-20-46">46</a></span>
+<span class="normal"><a href="#__codelineno-20-47">47</a></span>
+<span class="normal"><a href="#__codelineno-20-48">48</a></span>
+<span class="normal"><a href="#__codelineno-20-49">49</a></span>
+<span class="normal"><a href="#__codelineno-20-50">50</a></span>
+<span class="normal"><a href="#__codelineno-20-51">51</a></span>
+<span class="normal"><a href="#__codelineno-20-52">52</a></span>
+<span class="normal"><a href="#__codelineno-20-53">53</a></span>
+<span class="normal"><a href="#__codelineno-20-54">54</a></span>
+<span class="normal"><a href="#__codelineno-20-55">55</a></span>
+<span class="normal"><a href="#__codelineno-20-56">56</a></span>
+<span class="normal"><a href="#__codelineno-20-57">57</a></span>
+<span class="normal"><a href="#__codelineno-20-58">58</a></span>
+<span class="normal"><a href="#__codelineno-20-59">59</a></span>
+<span class="normal"><a href="#__codelineno-20-60">60</a></span>
+<span class="normal"><a href="#__codelineno-20-61">61</a></span>
+<span class="normal"><a href="#__codelineno-20-62">62</a></span>
+<span class="normal"><a href="#__codelineno-20-63">63</a></span>
+<span class="normal"><a href="#__codelineno-20-64">64</a></span>
+<span class="normal"><a href="#__codelineno-20-65">65</a></span>
+<span class="normal"><a href="#__codelineno-20-66">66</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-20-1"><a id="__codelineno-20-1" name="__codelineno-20-1"></a><span class="kn">import</span><span class="w"> </span><span class="p">(</span>
+</span><span id="__span-20-2"><a id="__codelineno-20-2" name="__codelineno-20-2"></a><span class="w">    </span><span class="s">&quot;context&quot;</span>
+</span><span id="__span-20-3"><a id="__codelineno-20-3" name="__codelineno-20-3"></a>
+</span><span id="__span-20-4"><a id="__codelineno-20-4" name="__codelineno-20-4"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/agent&quot;</span>
+</span><span id="__span-20-5"><a id="__codelineno-20-5" name="__codelineno-20-5"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/agent/llmagent&quot;</span>
+</span><span id="__span-20-6"><a id="__codelineno-20-6" name="__codelineno-20-6"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/model&quot;</span>
+</span><span id="__span-20-7"><a id="__codelineno-20-7" name="__codelineno-20-7"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/runner&quot;</span>
+</span><span id="__span-20-8"><a id="__codelineno-20-8" name="__codelineno-20-8"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/tool&quot;</span>
+</span><span id="__span-20-9"><a id="__codelineno-20-9" name="__codelineno-20-9"></a><span class="p">)</span>
+</span><span id="__span-20-10"><a id="__codelineno-20-10" name="__codelineno-20-10"></a>
+</span><span id="__span-20-11"><a id="__codelineno-20-11" name="__codelineno-20-11"></a><span class="nx">profileAgent</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">New</span><span class="p">(</span>
+</span><span id="__span-20-12"><a id="__codelineno-20-12" name="__codelineno-20-12"></a><span class="w">    </span><span class="s">&quot;profile-agent&quot;</span><span class="p">,</span>
+</span><span id="__span-20-13"><a id="__codelineno-20-13" name="__codelineno-20-13"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithModel</span><span class="p">(</span><span class="nx">modelInstance</span><span class="p">),</span>
+</span><span id="__span-20-14"><a id="__codelineno-20-14" name="__codelineno-20-14"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithDescription</span><span class="p">(</span><span class="s">&quot;负责采集并更新客户资料。&quot;</span><span class="p">),</span>
+</span><span id="__span-20-15"><a id="__codelineno-20-15" name="__codelineno-20-15"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithInstruction</span><span class="p">(</span><span class="s">`</span>
+</span><span id="__span-20-16"><a id="__codelineno-20-16" name="__codelineno-20-16"></a><span class="s">你负责更新客户资料。</span>
+</span><span id="__span-20-17"><a id="__codelineno-20-17" name="__codelineno-20-17"></a>
+</span><span id="__span-20-18"><a id="__codelineno-20-18" name="__codelineno-20-18"></a><span class="s">如果缺少必要字段：</span>
+</span><span id="__span-20-19"><a id="__codelineno-20-19" name="__codelineno-20-19"></a><span class="s">1. 先调用 await_user_reply</span>
+</span><span id="__span-20-20"><a id="__codelineno-20-20" name="__codelineno-20-20"></a><span class="s">2. 再向用户提出一个明确的问题</span>
+</span><span id="__span-20-21"><a id="__codelineno-20-21" name="__codelineno-20-21"></a><span class="s">3. 然后等待下一条用户消息</span>
+</span><span id="__span-20-22"><a id="__codelineno-20-22" name="__codelineno-20-22"></a>
+</span><span id="__span-20-23"><a id="__codelineno-20-23" name="__codelineno-20-23"></a><span class="s">字段齐全后，再调用 update_profile。</span>
+</span><span id="__span-20-24"><a id="__codelineno-20-24" name="__codelineno-20-24"></a><span class="s">`</span><span class="p">),</span>
+</span><span id="__span-20-25"><a id="__codelineno-20-25" name="__codelineno-20-25"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithAwaitUserReplyTool</span><span class="p">(</span><span class="kc">true</span><span class="p">),</span>
+</span><span id="__span-20-26"><a id="__codelineno-20-26" name="__codelineno-20-26"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithTools</span><span class="p">([]</span><span class="nx">tool</span><span class="p">.</span><span class="nx">Tool</span><span class="p">{</span><span class="nx">updateProfileTool</span><span class="p">}),</span>
+</span><span id="__span-20-27"><a id="__codelineno-20-27" name="__codelineno-20-27"></a><span class="p">)</span>
+</span><span id="__span-20-28"><a id="__codelineno-20-28" name="__codelineno-20-28"></a>
+</span><span id="__span-20-29"><a id="__codelineno-20-29" name="__codelineno-20-29"></a><span class="nx">coordinatorAgent</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">New</span><span class="p">(</span>
+</span><span id="__span-20-30"><a id="__codelineno-20-30" name="__codelineno-20-30"></a><span class="w">    </span><span class="s">&quot;coordinator-agent&quot;</span><span class="p">,</span>
+</span><span id="__span-20-31"><a id="__codelineno-20-31" name="__codelineno-20-31"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithModel</span><span class="p">(</span><span class="nx">modelInstance</span><span class="p">),</span>
+</span><span id="__span-20-32"><a id="__codelineno-20-32" name="__codelineno-20-32"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithInstruction</span><span class="p">(</span><span class="s">`</span>
+</span><span id="__span-20-33"><a id="__codelineno-20-33" name="__codelineno-20-33"></a><span class="s">用户要更新资料时，直接 transfer 给 profile-agent。</span>
+</span><span id="__span-20-34"><a id="__codelineno-20-34" name="__codelineno-20-34"></a><span class="s">不要自己收集资料字段。</span>
+</span><span id="__span-20-35"><a id="__codelineno-20-35" name="__codelineno-20-35"></a><span class="s">`</span><span class="p">),</span>
+</span><span id="__span-20-36"><a id="__codelineno-20-36" name="__codelineno-20-36"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithSubAgents</span><span class="p">([]</span><span class="nx">agent</span><span class="p">.</span><span class="nx">Agent</span><span class="p">{</span><span class="nx">profileAgent</span><span class="p">}),</span>
+</span><span id="__span-20-37"><a id="__codelineno-20-37" name="__codelineno-20-37"></a><span class="p">)</span>
+</span><span id="__span-20-38"><a id="__codelineno-20-38" name="__codelineno-20-38"></a>
+</span><span id="__span-20-39"><a id="__codelineno-20-39" name="__codelineno-20-39"></a><span class="nx">r</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">runner</span><span class="p">.</span><span class="nx">NewRunner</span><span class="p">(</span>
+</span><span id="__span-20-40"><a id="__codelineno-20-40" name="__codelineno-20-40"></a><span class="w">    </span><span class="s">&quot;crm-app&quot;</span><span class="p">,</span>
+</span><span id="__span-20-41"><a id="__codelineno-20-41" name="__codelineno-20-41"></a><span class="w">    </span><span class="nx">coordinatorAgent</span><span class="p">,</span>
+</span><span id="__span-20-42"><a id="__codelineno-20-42" name="__codelineno-20-42"></a><span class="w">    </span><span class="nx">runner</span><span class="p">.</span><span class="nx">WithAwaitUserReplyRouting</span><span class="p">(</span><span class="kc">true</span><span class="p">),</span>
+</span><span id="__span-20-43"><a id="__codelineno-20-43" name="__codelineno-20-43"></a><span class="p">)</span>
+</span><span id="__span-20-44"><a id="__codelineno-20-44" name="__codelineno-20-44"></a>
+</span><span id="__span-20-45"><a id="__codelineno-20-45" name="__codelineno-20-45"></a><span class="c1">// 第 1 轮：</span>
+</span><span id="__span-20-46"><a id="__codelineno-20-46" name="__codelineno-20-46"></a><span class="c1">// user: &quot;帮我更新资料&quot;</span>
+</span><span id="__span-20-47"><a id="__codelineno-20-47" name="__codelineno-20-47"></a><span class="c1">// coordinator-agent -&gt; transfer_to_agent(profile-agent)</span>
+</span><span id="__span-20-48"><a id="__codelineno-20-48" name="__codelineno-20-48"></a><span class="c1">// profile-agent -&gt; await_user_reply + &quot;请问要保存的手机号是多少？&quot;</span>
+</span><span id="__span-20-49"><a id="__codelineno-20-49" name="__codelineno-20-49"></a>
+</span><span id="__span-20-50"><a id="__codelineno-20-50" name="__codelineno-20-50"></a><span class="c1">// 第 2 轮（同一个 session）：</span>
+</span><span id="__span-20-51"><a id="__codelineno-20-51" name="__codelineno-20-51"></a><span class="c1">// user: &quot;+1-555-0101&quot;</span>
+</span><span id="__span-20-52"><a id="__codelineno-20-52" name="__codelineno-20-52"></a><span class="c1">// Runner 这一轮会直接从 profile-agent 开始。</span>
+</span><span id="__span-20-53"><a id="__codelineno-20-53" name="__codelineno-20-53"></a><span class="nx">events</span><span class="p">,</span><span class="w"> </span><span class="nx">err</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">r</span><span class="p">.</span><span class="nx">Run</span><span class="p">(</span>
+</span><span id="__span-20-54"><a id="__codelineno-20-54" name="__codelineno-20-54"></a><span class="w">    </span><span class="nx">context</span><span class="p">.</span><span class="nx">Background</span><span class="p">(),</span>
+</span><span id="__span-20-55"><a id="__codelineno-20-55" name="__codelineno-20-55"></a><span class="w">    </span><span class="s">&quot;user-1&quot;</span><span class="p">,</span>
+</span><span id="__span-20-56"><a id="__codelineno-20-56" name="__codelineno-20-56"></a><span class="w">    </span><span class="s">&quot;session-1&quot;</span><span class="p">,</span>
+</span><span id="__span-20-57"><a id="__codelineno-20-57" name="__codelineno-20-57"></a><span class="w">    </span><span class="nx">model</span><span class="p">.</span><span class="nx">NewUserMessage</span><span class="p">(</span><span class="s">&quot;+1-555-0101&quot;</span><span class="p">),</span>
+</span><span id="__span-20-58"><a id="__codelineno-20-58" name="__codelineno-20-58"></a><span class="p">)</span>
+</span><span id="__span-20-59"><a id="__codelineno-20-59" name="__codelineno-20-59"></a><span class="k">if</span><span class="w"> </span><span class="nx">err</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="kc">nil</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-20-60"><a id="__codelineno-20-60" name="__codelineno-20-60"></a><span class="w">    </span><span class="c1">// handle error</span>
+</span><span id="__span-20-61"><a id="__codelineno-20-61" name="__codelineno-20-61"></a><span class="p">}</span>
+</span><span id="__span-20-62"><a id="__codelineno-20-62" name="__codelineno-20-62"></a><span class="k">for</span><span class="w"> </span><span class="nx">evt</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="k">range</span><span class="w"> </span><span class="nx">events</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-20-63"><a id="__codelineno-20-63" name="__codelineno-20-63"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="nx">evt</span><span class="p">.</span><span class="nx">IsRunnerCompletion</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-20-64"><a id="__codelineno-20-64" name="__codelineno-20-64"></a><span class="w">        </span><span class="k">break</span>
+</span><span id="__span-20-65"><a id="__codelineno-20-65" name="__codelineno-20-65"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-20-66"><a id="__codelineno-20-66" name="__codelineno-20-66"></a><span class="p">}</span>
 </span></code></pre></div></td></tr></table></div>
 <p>这套能力的行为边界：</p>
 <ul>
@@ -4774,7 +5474,97 @@ Escalation 只是指控制流上抛 / 中止循环，并不是“版本升级”
 </ul>
 <p>如果你不是用 <code>LLMAgent</code>，而是自己实现 <code>agent.Agent</code>，请看 <code>runner</code>
 文档里的底层 API：<code>agent.MarkAwaitingUserReply(...)</code>。</p>
-<h2 id="_28">环境变量配置</h2>
+<h4 id="transfer">关联 Transfer 目标事件到触发的工具调用</h4>
+<p><code>transfer_to_agent</code> 把控制权转交给目标 Agent 后，目标 invocation 发出的事件会
+带有 <code>ParentMetadata</code> 字段：<code>TriggerType=transfer</code>、<code>TriggerID=&lt;父级的
+toolCallId&gt;</code>、<code>TriggerName=transfer_to_agent</code>。AG-UI 调用方可以用 <code>TriggerID</code>
+把目标的事件挂回到具体那一次 <code>transfer_to_agent</code> 的 <code>TOOL_CALL_START</code>。线上
+格式见 AG-UI chat 文档的
+<a href="../agui/chat/#事件来源元数据">事件来源元数据</a> 章节。</p>
+<h2 id="explorer-agent">内置 Explorer（只读探索 Agent）</h2>
+<p><code>agent/llmagent/builtin</code> 提供一个开箱即用的只读“探索 / 检索 / 分析 / 查看”型
+Agent 预设，省去每次手写名字、description、只读 prompt、继承父能力面的样板代码。</p>
+<p><code>builtin.NewExplorer()</code> 返回一个普通的 <code>agent.Agent</code>，因此两种接入方式都支持：</p>
+<div class="language-go highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-21-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-21-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-21-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-21-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-21-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-21-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-21-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-21-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-21-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-21-10">10</a></span>
+<span class="normal"><a href="#__codelineno-21-11">11</a></span>
+<span class="normal"><a href="#__codelineno-21-12">12</a></span>
+<span class="normal"><a href="#__codelineno-21-13">13</a></span>
+<span class="normal"><a href="#__codelineno-21-14">14</a></span>
+<span class="normal"><a href="#__codelineno-21-15">15</a></span>
+<span class="normal"><a href="#__codelineno-21-16">16</a></span>
+<span class="normal"><a href="#__codelineno-21-17">17</a></span>
+<span class="normal"><a href="#__codelineno-21-18">18</a></span>
+<span class="normal"><a href="#__codelineno-21-19">19</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1"></a><span class="kn">import</span><span class="w"> </span><span class="p">(</span>
+</span><span id="__span-21-2"><a id="__codelineno-21-2" name="__codelineno-21-2"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/agent&quot;</span>
+</span><span id="__span-21-3"><a id="__codelineno-21-3" name="__codelineno-21-3"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/agent/llmagent&quot;</span>
+</span><span id="__span-21-4"><a id="__codelineno-21-4" name="__codelineno-21-4"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/agent/llmagent/builtin&quot;</span>
+</span><span id="__span-21-5"><a id="__codelineno-21-5" name="__codelineno-21-5"></a><span class="w">    </span><span class="nx">agenttool</span><span class="w"> </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/tool/agent&quot;</span>
+</span><span id="__span-21-6"><a id="__codelineno-21-6" name="__codelineno-21-6"></a><span class="p">)</span>
+</span><span id="__span-21-7"><a id="__codelineno-21-7" name="__codelineno-21-7"></a>
+</span><span id="__span-21-8"><a id="__codelineno-21-8" name="__codelineno-21-8"></a><span class="c1">// 方式一：作为 SubAgent，模型通过 transfer_to_agent 把控制权交给 explorer</span>
+</span><span id="__span-21-9"><a id="__codelineno-21-9" name="__codelineno-21-9"></a><span class="nx">root</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">New</span><span class="p">(</span><span class="s">&quot;assistant&quot;</span><span class="p">,</span>
+</span><span id="__span-21-10"><a id="__codelineno-21-10" name="__codelineno-21-10"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithModel</span><span class="p">(</span><span class="nx">modelInstance</span><span class="p">),</span>
+</span><span id="__span-21-11"><a id="__codelineno-21-11" name="__codelineno-21-11"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithTools</span><span class="p">(</span><span class="nx">tools</span><span class="p">),</span>
+</span><span id="__span-21-12"><a id="__codelineno-21-12" name="__codelineno-21-12"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithSubAgents</span><span class="p">([]</span><span class="nx">agent</span><span class="p">.</span><span class="nx">Agent</span><span class="p">{</span><span class="nx">builtin</span><span class="p">.</span><span class="nx">NewExplorer</span><span class="p">()}),</span>
+</span><span id="__span-21-13"><a id="__codelineno-21-13" name="__codelineno-21-13"></a><span class="p">)</span>
+</span><span id="__span-21-14"><a id="__codelineno-21-14" name="__codelineno-21-14"></a>
+</span><span id="__span-21-15"><a id="__codelineno-21-15" name="__codelineno-21-15"></a><span class="c1">// 方式二：包成 AgentTool，模型同步调用 explorer，拿结果后主 Agent 继续</span>
+</span><span id="__span-21-16"><a id="__codelineno-21-16" name="__codelineno-21-16"></a><span class="nx">root</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">New</span><span class="p">(</span><span class="s">&quot;assistant&quot;</span><span class="p">,</span>
+</span><span id="__span-21-17"><a id="__codelineno-21-17" name="__codelineno-21-17"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithModel</span><span class="p">(</span><span class="nx">modelInstance</span><span class="p">),</span>
+</span><span id="__span-21-18"><a id="__codelineno-21-18" name="__codelineno-21-18"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithTools</span><span class="p">(</span><span class="nb">append</span><span class="p">(</span><span class="nx">tools</span><span class="p">,</span><span class="w"> </span><span class="nx">agenttool</span><span class="p">.</span><span class="nx">NewTool</span><span class="p">(</span><span class="nx">builtin</span><span class="p">.</span><span class="nx">NewExplorer</span><span class="p">()))),</span>
+</span><span id="__span-21-19"><a id="__codelineno-21-19" name="__codelineno-21-19"></a><span class="p">)</span>
+</span></code></pre></div></td></tr></table></div>
+<p>两种方式的能力继承一致：transfer 和 AgentTool 都在父 invocation 的克隆上运行子
+Agent，Explorer 在 <code>Run</code> 时通过直接父 invocation 推导默认能力面。</p>
+<h3 id="_29">默认继承行为</h3>
+<p>不传任何选项时，Explorer 默认从<strong>直接父 invocation</strong>继承：</p>
+<ul>
+<li><strong>用户工具</strong>：父 Agent 通过 <code>WithTools</code> / <code>WithToolSets</code> 注册的工具。框架自动注入的
+  工具（<code>transfer_to_agent</code>、<code>await_user_reply</code> 等）不会被继承。</li>
+<li><strong>knowledge</strong>：父的知识检索能力（<code>knowledge_search</code> 等）会按父配置重新生成。</li>
+<li><strong>skills / code executor</strong>：按父配置重新生成，绑定到子调用而非硬搬父运行时状态。</li>
+<li><strong>model</strong>：继承父 invocation 当前解析出的 model。</li>
+</ul>
+<h3 id="_30">只读语义是软约束</h3>
+<p>Explorer 的 read-only 是 <strong>system prompt 软约束，不是权限隔离</strong>。它的定位是一个便捷的
+内置只读角色：模型会被提示去检索、查看和总结，但框架不会自动把工具分类成只读工具或写
+工具。</p>
+<h3 id="_31">自定义能力面</h3>
+<div class="language-go highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-22-1">1</a></span>
+<span class="normal"><a href="#__codelineno-22-2">2</a></span>
+<span class="normal"><a href="#__codelineno-22-3">3</a></span>
+<span class="normal"><a href="#__codelineno-22-4">4</a></span>
+<span class="normal"><a href="#__codelineno-22-5">5</a></span>
+<span class="normal"><a href="#__codelineno-22-6">6</a></span>
+<span class="normal"><a href="#__codelineno-22-7">7</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-22-1"><a id="__codelineno-22-1" name="__codelineno-22-1"></a><span class="nx">builtin</span><span class="p">.</span><span class="nx">NewExplorer</span><span class="p">(</span>
+</span><span id="__span-22-2"><a id="__codelineno-22-2" name="__codelineno-22-2"></a><span class="w">    </span><span class="nx">builtin</span><span class="p">.</span><span class="nx">WithName</span><span class="p">(</span><span class="s">&quot;explorer&quot;</span><span class="p">),</span>
+</span><span id="__span-22-3"><a id="__codelineno-22-3" name="__codelineno-22-3"></a><span class="w">    </span><span class="nx">builtin</span><span class="p">.</span><span class="nx">WithDescription</span><span class="p">(</span><span class="s">&quot;Reads and investigates available context without modifying anything.&quot;</span><span class="p">),</span>
+</span><span id="__span-22-4"><a id="__codelineno-22-4" name="__codelineno-22-4"></a><span class="w">    </span><span class="nx">builtin</span><span class="p">.</span><span class="nx">WithInstruction</span><span class="p">(</span><span class="nx">customReadOnlyPrompt</span><span class="p">),</span>
+</span><span id="__span-22-5"><a id="__codelineno-22-5" name="__codelineno-22-5"></a><span class="w">    </span><span class="nx">builtin</span><span class="p">.</span><span class="nx">WithSkills</span><span class="p">(</span><span class="nx">readOnlySkillsRepo</span><span class="p">),</span><span class="w">            </span><span class="c1">// 显式替换</span>
+</span><span id="__span-22-6"><a id="__codelineno-22-6" name="__codelineno-22-6"></a><span class="w">    </span><span class="nx">builtin</span><span class="p">.</span><span class="nx">WithModel</span><span class="p">(</span><span class="nx">modelInstance</span><span class="p">),</span><span class="w">                  </span><span class="c1">// 显式指定，否则继承父 model</span>
+</span><span id="__span-22-7"><a id="__codelineno-22-7" name="__codelineno-22-7"></a><span class="p">)</span>
+</span></code></pre></div></td></tr></table></div>
+<p>可用选项：<code>WithName</code>、<code>WithDescription</code>、<code>WithInstruction</code>、<code>WithTools</code>、
+<code>WithSkills</code>、<code>WithModel</code>、<code>WithCodeExecutor</code>，以及高级逃生口
+<code>WithLLMAgentOptions</code>（直接透传内部 <code>llmagent.Option</code>，谨慎使用）。</p>
+<p>行为说明：</p>
+<ul>
+<li>不传 <code>WithTools</code>：运行时继承父用户工具；传了则使用显式工具集，且不再继承父用户工具
+  与 knowledge。</li>
+<li>不传 <code>WithSkills</code> / <code>WithCodeExecutor</code>：运行时按父能力重新生成。</li>
+<li>不传 <code>WithModel</code>：继承父 invocation 当前 model；若父也没有 model，<code>Run</code> 返回清晰错误。</li>
+<li>没有父 invocation（例如作为 root 运行）：不继承，只使用显式配置。</li>
+</ul>
+<h2 id="_32">环境变量配置</h2>
 <p>所有多 Agent 示例都需要以下环境变量：</p>
 <table>
 <thead>
@@ -4800,166 +5590,166 @@ Escalation 只是指控制流上抛 / 中止循环，并不是“版本升级”
 </tr>
 </tbody>
 </table>
-<h2 id="_29">运行示例</h2>
+<h2 id="_33">运行示例</h2>
 <p>所有示例代码位于 <a href="https://github.com/trpc-group/trpc-agent-go/tree/main/examples">examples</a></p>
-<h3 id="_30">核心协作模式示例</h3>
-<h4 id="agent_2">链式 Agent 示例</h4>
-<div class="language-bash highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-20-1">1</a></span>
-<span class="normal"><a href="#__codelineno-20-2">2</a></span>
-<span class="normal"><a href="#__codelineno-20-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-20-1"><a id="__codelineno-20-1" name="__codelineno-20-1"></a><span class="nb">cd</span><span class="w"> </span>examples/multiagent/chain
-</span><span id="__span-20-2"><a id="__codelineno-20-2" name="__codelineno-20-2"></a><span class="nb">export</span><span class="w"> </span><span class="nv">OPENAI_API_KEY</span><span class="o">=</span><span class="s2">&quot;your-api-key&quot;</span>
-</span><span id="__span-20-3"><a id="__codelineno-20-3" name="__codelineno-20-3"></a>go<span class="w"> </span>run<span class="w"> </span>main.go<span class="w"> </span>-model<span class="w"> </span>deepseek-v4-flash
-</span></code></pre></div></td></tr></table></div>
-<h4 id="agent_3">并行 Agent 示例</h4>
-<div class="language-bash highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-21-1">1</a></span>
-<span class="normal"><a href="#__codelineno-21-2">2</a></span>
-<span class="normal"><a href="#__codelineno-21-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1"></a><span class="nb">cd</span><span class="w"> </span>examples/multiagent/parallel
-</span><span id="__span-21-2"><a id="__codelineno-21-2" name="__codelineno-21-2"></a><span class="nb">export</span><span class="w"> </span><span class="nv">OPENAI_API_KEY</span><span class="o">=</span><span class="s2">&quot;your-api-key&quot;</span>
-</span><span id="__span-21-3"><a id="__codelineno-21-3" name="__codelineno-21-3"></a>go<span class="w"> </span>run<span class="w"> </span>main.go<span class="w"> </span>-model<span class="w"> </span>deepseek-v4-flash
-</span></code></pre></div></td></tr></table></div>
-<h4 id="agent_4">循环 Agent 示例</h4>
-<div class="language-bash highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-22-1">1</a></span>
-<span class="normal"><a href="#__codelineno-22-2">2</a></span>
-<span class="normal"><a href="#__codelineno-22-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-22-1"><a id="__codelineno-22-1" name="__codelineno-22-1"></a><span class="nb">cd</span><span class="w"> </span>examples/multiagent/cycle
-</span><span id="__span-22-2"><a id="__codelineno-22-2" name="__codelineno-22-2"></a><span class="nb">export</span><span class="w"> </span><span class="nv">OPENAI_API_KEY</span><span class="o">=</span><span class="s2">&quot;your-api-key&quot;</span>
-</span><span id="__span-22-3"><a id="__codelineno-22-3" name="__codelineno-22-3"></a>go<span class="w"> </span>run<span class="w"> </span>main.go<span class="w"> </span>-model<span class="w"> </span>deepseek-v4-flash<span class="w"> </span>-max-iterations<span class="w"> </span><span class="m">5</span>
-</span></code></pre></div></td></tr></table></div>
-<h3 id="_31">辅助功能示例</h3>
-<h4 id="agent_5">Agent 工具示例</h4>
+<h3 id="_34">核心协作模式示例</h3>
+<h4 id="agent_3">链式 Agent 示例</h4>
 <div class="language-bash highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-23-1">1</a></span>
 <span class="normal"><a href="#__codelineno-23-2">2</a></span>
-<span class="normal"><a href="#__codelineno-23-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-23-1"><a id="__codelineno-23-1" name="__codelineno-23-1"></a><span class="nb">cd</span><span class="w"> </span>examples/agenttool
+<span class="normal"><a href="#__codelineno-23-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-23-1"><a id="__codelineno-23-1" name="__codelineno-23-1"></a><span class="nb">cd</span><span class="w"> </span>examples/multiagent/chain
 </span><span id="__span-23-2"><a id="__codelineno-23-2" name="__codelineno-23-2"></a><span class="nb">export</span><span class="w"> </span><span class="nv">OPENAI_API_KEY</span><span class="o">=</span><span class="s2">&quot;your-api-key&quot;</span>
 </span><span id="__span-23-3"><a id="__codelineno-23-3" name="__codelineno-23-3"></a>go<span class="w"> </span>run<span class="w"> </span>main.go<span class="w"> </span>-model<span class="w"> </span>deepseek-v4-flash
 </span></code></pre></div></td></tr></table></div>
-<h4 id="agent_6">Agent 委托示例</h4>
+<h4 id="agent_4">并行 Agent 示例</h4>
 <div class="language-bash highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-24-1">1</a></span>
 <span class="normal"><a href="#__codelineno-24-2">2</a></span>
-<span class="normal"><a href="#__codelineno-24-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-24-1"><a id="__codelineno-24-1" name="__codelineno-24-1"></a><span class="nb">cd</span><span class="w"> </span>examples/transfer
+<span class="normal"><a href="#__codelineno-24-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-24-1"><a id="__codelineno-24-1" name="__codelineno-24-1"></a><span class="nb">cd</span><span class="w"> </span>examples/multiagent/parallel
 </span><span id="__span-24-2"><a id="__codelineno-24-2" name="__codelineno-24-2"></a><span class="nb">export</span><span class="w"> </span><span class="nv">OPENAI_API_KEY</span><span class="o">=</span><span class="s2">&quot;your-api-key&quot;</span>
 </span><span id="__span-24-3"><a id="__codelineno-24-3" name="__codelineno-24-3"></a>go<span class="w"> </span>run<span class="w"> </span>main.go<span class="w"> </span>-model<span class="w"> </span>deepseek-v4-flash
 </span></code></pre></div></td></tr></table></div>
-<h2 id="_32">自定义和扩展</h2>
-<h3 id="agent_7">添加新的 Agent</h3>
-<div class="language-go highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-25-1"> 1</a></span>
-<span class="normal"><a href="#__codelineno-25-2"> 2</a></span>
-<span class="normal"><a href="#__codelineno-25-3"> 3</a></span>
-<span class="normal"><a href="#__codelineno-25-4"> 4</a></span>
-<span class="normal"><a href="#__codelineno-25-5"> 5</a></span>
-<span class="normal"><a href="#__codelineno-25-6"> 6</a></span>
-<span class="normal"><a href="#__codelineno-25-7"> 7</a></span>
-<span class="normal"><a href="#__codelineno-25-8"> 8</a></span>
-<span class="normal"><a href="#__codelineno-25-9"> 9</a></span>
-<span class="normal"><a href="#__codelineno-25-10">10</a></span>
-<span class="normal"><a href="#__codelineno-25-11">11</a></span>
-<span class="normal"><a href="#__codelineno-25-12">12</a></span>
-<span class="normal"><a href="#__codelineno-25-13">13</a></span>
-<span class="normal"><a href="#__codelineno-25-14">14</a></span>
-<span class="normal"><a href="#__codelineno-25-15">15</a></span>
-<span class="normal"><a href="#__codelineno-25-16">16</a></span>
-<span class="normal"><a href="#__codelineno-25-17">17</a></span>
-<span class="normal"><a href="#__codelineno-25-18">18</a></span>
-<span class="normal"><a href="#__codelineno-25-19">19</a></span>
-<span class="normal"><a href="#__codelineno-25-20">20</a></span>
-<span class="normal"><a href="#__codelineno-25-21">21</a></span>
-<span class="normal"><a href="#__codelineno-25-22">22</a></span>
-<span class="normal"><a href="#__codelineno-25-23">23</a></span>
-<span class="normal"><a href="#__codelineno-25-24">24</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-25-1"><a id="__codelineno-25-1" name="__codelineno-25-1"></a><span class="kn">import</span><span class="w"> </span><span class="p">(</span>
-</span><span id="__span-25-2"><a id="__codelineno-25-2" name="__codelineno-25-2"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/agent&quot;</span>
-</span><span id="__span-25-3"><a id="__codelineno-25-3" name="__codelineno-25-3"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/agent/chainagent&quot;</span>
-</span><span id="__span-25-4"><a id="__codelineno-25-4" name="__codelineno-25-4"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/agent/llmagent&quot;</span>
-</span><span id="__span-25-5"><a id="__codelineno-25-5" name="__codelineno-25-5"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/tool&quot;</span>
-</span><span id="__span-25-6"><a id="__codelineno-25-6" name="__codelineno-25-6"></a><span class="p">)</span>
-</span><span id="__span-25-7"><a id="__codelineno-25-7" name="__codelineno-25-7"></a>
-</span><span id="__span-25-8"><a id="__codelineno-25-8" name="__codelineno-25-8"></a><span class="c1">// 创建自定义 Agent</span>
-</span><span id="__span-25-9"><a id="__codelineno-25-9" name="__codelineno-25-9"></a><span class="nx">customAgent</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">New</span><span class="p">(</span>
-</span><span id="__span-25-10"><a id="__codelineno-25-10" name="__codelineno-25-10"></a><span class="w">    </span><span class="s">&quot;custom-agent&quot;</span><span class="p">,</span>
-</span><span id="__span-25-11"><a id="__codelineno-25-11" name="__codelineno-25-11"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithModel</span><span class="p">(</span><span class="nx">modelInstance</span><span class="p">),</span>
-</span><span id="__span-25-12"><a id="__codelineno-25-12" name="__codelineno-25-12"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithDescription</span><span class="p">(</span><span class="s">&quot;自定义 Agent 描述&quot;</span><span class="p">),</span>
-</span><span id="__span-25-13"><a id="__codelineno-25-13" name="__codelineno-25-13"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithInstruction</span><span class="p">(</span><span class="s">&quot;自定义指令&quot;</span><span class="p">),</span>
-</span><span id="__span-25-14"><a id="__codelineno-25-14" name="__codelineno-25-14"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithTools</span><span class="p">([]</span><span class="nx">tool</span><span class="p">.</span><span class="nx">Tool</span><span class="p">{</span><span class="nx">customTool</span><span class="p">}),</span>
-</span><span id="__span-25-15"><a id="__codelineno-25-15" name="__codelineno-25-15"></a><span class="p">)</span>
-</span><span id="__span-25-16"><a id="__codelineno-25-16" name="__codelineno-25-16"></a>
-</span><span id="__span-25-17"><a id="__codelineno-25-17" name="__codelineno-25-17"></a><span class="c1">// 集成到多 Agent 系统中</span>
-</span><span id="__span-25-18"><a id="__codelineno-25-18" name="__codelineno-25-18"></a><span class="nx">chainAgent</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">chainagent</span><span class="p">.</span><span class="nx">New</span><span class="p">(</span>
-</span><span id="__span-25-19"><a id="__codelineno-25-19" name="__codelineno-25-19"></a><span class="w">    </span><span class="s">&quot;custom-chain&quot;</span><span class="p">,</span>
-</span><span id="__span-25-20"><a id="__codelineno-25-20" name="__codelineno-25-20"></a><span class="w">    </span><span class="nx">chainagent</span><span class="p">.</span><span class="nx">WithSubAgents</span><span class="p">([]</span><span class="nx">agent</span><span class="p">.</span><span class="nx">Agent</span><span class="p">{</span>
-</span><span id="__span-25-21"><a id="__codelineno-25-21" name="__codelineno-25-21"></a><span class="w">        </span><span class="nx">existingAgent</span><span class="p">,</span>
-</span><span id="__span-25-22"><a id="__codelineno-25-22" name="__codelineno-25-22"></a><span class="w">        </span><span class="nx">customAgent</span><span class="p">,</span><span class="w">  </span><span class="c1">// 添加自定义 Agent</span>
-</span><span id="__span-25-23"><a id="__codelineno-25-23" name="__codelineno-25-23"></a><span class="w">    </span><span class="p">}),</span>
-</span><span id="__span-25-24"><a id="__codelineno-25-24" name="__codelineno-25-24"></a><span class="p">)</span>
+<h4 id="agent_5">循环 Agent 示例</h4>
+<div class="language-bash highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-25-1">1</a></span>
+<span class="normal"><a href="#__codelineno-25-2">2</a></span>
+<span class="normal"><a href="#__codelineno-25-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-25-1"><a id="__codelineno-25-1" name="__codelineno-25-1"></a><span class="nb">cd</span><span class="w"> </span>examples/multiagent/cycle
+</span><span id="__span-25-2"><a id="__codelineno-25-2" name="__codelineno-25-2"></a><span class="nb">export</span><span class="w"> </span><span class="nv">OPENAI_API_KEY</span><span class="o">=</span><span class="s2">&quot;your-api-key&quot;</span>
+</span><span id="__span-25-3"><a id="__codelineno-25-3" name="__codelineno-25-3"></a>go<span class="w"> </span>run<span class="w"> </span>main.go<span class="w"> </span>-model<span class="w"> </span>deepseek-v4-flash<span class="w"> </span>-max-iterations<span class="w"> </span><span class="m">5</span>
 </span></code></pre></div></td></tr></table></div>
-<h3 id="_33">配置工具</h3>
-<div class="language-go highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-26-1"> 1</a></span>
-<span class="normal"><a href="#__codelineno-26-2"> 2</a></span>
-<span class="normal"><a href="#__codelineno-26-3"> 3</a></span>
-<span class="normal"><a href="#__codelineno-26-4"> 4</a></span>
-<span class="normal"><a href="#__codelineno-26-5"> 5</a></span>
-<span class="normal"><a href="#__codelineno-26-6"> 6</a></span>
-<span class="normal"><a href="#__codelineno-26-7"> 7</a></span>
-<span class="normal"><a href="#__codelineno-26-8"> 8</a></span>
-<span class="normal"><a href="#__codelineno-26-9"> 9</a></span>
-<span class="normal"><a href="#__codelineno-26-10">10</a></span>
-<span class="normal"><a href="#__codelineno-26-11">11</a></span>
-<span class="normal"><a href="#__codelineno-26-12">12</a></span>
-<span class="normal"><a href="#__codelineno-26-13">13</a></span>
-<span class="normal"><a href="#__codelineno-26-14">14</a></span>
-<span class="normal"><a href="#__codelineno-26-15">15</a></span>
-<span class="normal"><a href="#__codelineno-26-16">16</a></span>
-<span class="normal"><a href="#__codelineno-26-17">17</a></span>
-<span class="normal"><a href="#__codelineno-26-18">18</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-26-1"><a id="__codelineno-26-1" name="__codelineno-26-1"></a><span class="kn">import</span><span class="w"> </span><span class="p">(</span>
-</span><span id="__span-26-2"><a id="__codelineno-26-2" name="__codelineno-26-2"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/agent/llmagent&quot;</span>
-</span><span id="__span-26-3"><a id="__codelineno-26-3" name="__codelineno-26-3"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/tool&quot;</span>
-</span><span id="__span-26-4"><a id="__codelineno-26-4" name="__codelineno-26-4"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/tool/function&quot;</span>
-</span><span id="__span-26-5"><a id="__codelineno-26-5" name="__codelineno-26-5"></a><span class="p">)</span>
-</span><span id="__span-26-6"><a id="__codelineno-26-6" name="__codelineno-26-6"></a>
-</span><span id="__span-26-7"><a id="__codelineno-26-7" name="__codelineno-26-7"></a><span class="c1">// 创建自定义工具</span>
-</span><span id="__span-26-8"><a id="__codelineno-26-8" name="__codelineno-26-8"></a><span class="nx">customTool</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">function</span><span class="p">.</span><span class="nx">NewFunctionTool</span><span class="p">(</span>
-</span><span id="__span-26-9"><a id="__codelineno-26-9" name="__codelineno-26-9"></a><span class="w">    </span><span class="nx">customFunction</span><span class="p">,</span>
-</span><span id="__span-26-10"><a id="__codelineno-26-10" name="__codelineno-26-10"></a><span class="w">    </span><span class="nx">function</span><span class="p">.</span><span class="nx">WithName</span><span class="p">(</span><span class="s">&quot;custom_tool&quot;</span><span class="p">),</span>
-</span><span id="__span-26-11"><a id="__codelineno-26-11" name="__codelineno-26-11"></a><span class="w">    </span><span class="nx">function</span><span class="p">.</span><span class="nx">WithDescription</span><span class="p">(</span><span class="s">&quot;自定义工具描述&quot;</span><span class="p">),</span>
-</span><span id="__span-26-12"><a id="__codelineno-26-12" name="__codelineno-26-12"></a><span class="p">)</span>
-</span><span id="__span-26-13"><a id="__codelineno-26-13" name="__codelineno-26-13"></a>
-</span><span id="__span-26-14"><a id="__codelineno-26-14" name="__codelineno-26-14"></a><span class="c1">// 为 Agent 分配工具</span>
-</span><span id="__span-26-15"><a id="__codelineno-26-15" name="__codelineno-26-15"></a><span class="nx">agent</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">New</span><span class="p">(</span>
-</span><span id="__span-26-16"><a id="__codelineno-26-16" name="__codelineno-26-16"></a><span class="w">    </span><span class="s">&quot;tool-agent&quot;</span><span class="p">,</span>
-</span><span id="__span-26-17"><a id="__codelineno-26-17" name="__codelineno-26-17"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithTools</span><span class="p">([]</span><span class="nx">tool</span><span class="p">.</span><span class="nx">Tool</span><span class="p">{</span><span class="nx">customTool</span><span class="p">}),</span>
-</span><span id="__span-26-18"><a id="__codelineno-26-18" name="__codelineno-26-18"></a><span class="p">)</span>
+<h3 id="_35">辅助功能示例</h3>
+<h4 id="agent_6">Agent 工具示例</h4>
+<div class="language-bash highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-26-1">1</a></span>
+<span class="normal"><a href="#__codelineno-26-2">2</a></span>
+<span class="normal"><a href="#__codelineno-26-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-26-1"><a id="__codelineno-26-1" name="__codelineno-26-1"></a><span class="nb">cd</span><span class="w"> </span>examples/agenttool
+</span><span id="__span-26-2"><a id="__codelineno-26-2" name="__codelineno-26-2"></a><span class="nb">export</span><span class="w"> </span><span class="nv">OPENAI_API_KEY</span><span class="o">=</span><span class="s2">&quot;your-api-key&quot;</span>
+</span><span id="__span-26-3"><a id="__codelineno-26-3" name="__codelineno-26-3"></a>go<span class="w"> </span>run<span class="w"> </span>main.go<span class="w"> </span>-model<span class="w"> </span>deepseek-v4-flash
 </span></code></pre></div></td></tr></table></div>
-<h3 id="_34">调整参数</h3>
-<div class="language-go highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-27-1"> 1</a></span>
-<span class="normal"><a href="#__codelineno-27-2"> 2</a></span>
-<span class="normal"><a href="#__codelineno-27-3"> 3</a></span>
-<span class="normal"><a href="#__codelineno-27-4"> 4</a></span>
-<span class="normal"><a href="#__codelineno-27-5"> 5</a></span>
-<span class="normal"><a href="#__codelineno-27-6"> 6</a></span>
-<span class="normal"><a href="#__codelineno-27-7"> 7</a></span>
-<span class="normal"><a href="#__codelineno-27-8"> 8</a></span>
-<span class="normal"><a href="#__codelineno-27-9"> 9</a></span>
-<span class="normal"><a href="#__codelineno-27-10">10</a></span>
-<span class="normal"><a href="#__codelineno-27-11">11</a></span>
-<span class="normal"><a href="#__codelineno-27-12">12</a></span>
-<span class="normal"><a href="#__codelineno-27-13">13</a></span>
-<span class="normal"><a href="#__codelineno-27-14">14</a></span>
-<span class="normal"><a href="#__codelineno-27-15">15</a></span>
-<span class="normal"><a href="#__codelineno-27-16">16</a></span>
-<span class="normal"><a href="#__codelineno-27-17">17</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-27-1"><a id="__codelineno-27-1" name="__codelineno-27-1"></a><span class="kn">import</span><span class="w"> </span><span class="p">(</span>
-</span><span id="__span-27-2"><a id="__codelineno-27-2" name="__codelineno-27-2"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/agent/llmagent&quot;</span>
-</span><span id="__span-27-3"><a id="__codelineno-27-3" name="__codelineno-27-3"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/model&quot;</span>
-</span><span id="__span-27-4"><a id="__codelineno-27-4" name="__codelineno-27-4"></a><span class="p">)</span>
-</span><span id="__span-27-5"><a id="__codelineno-27-5" name="__codelineno-27-5"></a>
-</span><span id="__span-27-6"><a id="__codelineno-27-6" name="__codelineno-27-6"></a><span class="c1">// 配置生成参数</span>
-</span><span id="__span-27-7"><a id="__codelineno-27-7" name="__codelineno-27-7"></a><span class="nx">genConfig</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">model</span><span class="p">.</span><span class="nx">GenerationConfig</span><span class="p">{</span>
-</span><span id="__span-27-8"><a id="__codelineno-27-8" name="__codelineno-27-8"></a><span class="w">    </span><span class="nx">MaxTokens</span><span class="p">:</span><span class="w">   </span><span class="nx">intPtr</span><span class="p">(</span><span class="mi">500</span><span class="p">),</span>
-</span><span id="__span-27-9"><a id="__codelineno-27-9" name="__codelineno-27-9"></a><span class="w">    </span><span class="nx">Temperature</span><span class="p">:</span><span class="w"> </span><span class="nx">floatPtr</span><span class="p">(</span><span class="mf">0.7</span><span class="p">),</span>
-</span><span id="__span-27-10"><a id="__codelineno-27-10" name="__codelineno-27-10"></a><span class="w">    </span><span class="nx">Stream</span><span class="p">:</span><span class="w">      </span><span class="kc">true</span><span class="p">,</span>
-</span><span id="__span-27-11"><a id="__codelineno-27-11" name="__codelineno-27-11"></a><span class="p">}</span>
-</span><span id="__span-27-12"><a id="__codelineno-27-12" name="__codelineno-27-12"></a>
-</span><span id="__span-27-13"><a id="__codelineno-27-13" name="__codelineno-27-13"></a><span class="c1">// 应用到 Agent</span>
-</span><span id="__span-27-14"><a id="__codelineno-27-14" name="__codelineno-27-14"></a><span class="nx">agent</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">New</span><span class="p">(</span>
-</span><span id="__span-27-15"><a id="__codelineno-27-15" name="__codelineno-27-15"></a><span class="w">    </span><span class="s">&quot;configured-agent&quot;</span><span class="p">,</span>
-</span><span id="__span-27-16"><a id="__codelineno-27-16" name="__codelineno-27-16"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithGenerationConfig</span><span class="p">(</span><span class="nx">genConfig</span><span class="p">),</span>
-</span><span id="__span-27-17"><a id="__codelineno-27-17" name="__codelineno-27-17"></a><span class="p">)</span>
+<h4 id="agent_7">Agent 委托示例</h4>
+<div class="language-bash highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-27-1">1</a></span>
+<span class="normal"><a href="#__codelineno-27-2">2</a></span>
+<span class="normal"><a href="#__codelineno-27-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-27-1"><a id="__codelineno-27-1" name="__codelineno-27-1"></a><span class="nb">cd</span><span class="w"> </span>examples/transfer
+</span><span id="__span-27-2"><a id="__codelineno-27-2" name="__codelineno-27-2"></a><span class="nb">export</span><span class="w"> </span><span class="nv">OPENAI_API_KEY</span><span class="o">=</span><span class="s2">&quot;your-api-key&quot;</span>
+</span><span id="__span-27-3"><a id="__codelineno-27-3" name="__codelineno-27-3"></a>go<span class="w"> </span>run<span class="w"> </span>main.go<span class="w"> </span>-model<span class="w"> </span>deepseek-v4-flash
+</span></code></pre></div></td></tr></table></div>
+<h2 id="_36">自定义和扩展</h2>
+<h3 id="agent_8">添加新的 Agent</h3>
+<div class="language-go highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-28-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-28-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-28-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-28-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-28-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-28-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-28-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-28-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-28-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-28-10">10</a></span>
+<span class="normal"><a href="#__codelineno-28-11">11</a></span>
+<span class="normal"><a href="#__codelineno-28-12">12</a></span>
+<span class="normal"><a href="#__codelineno-28-13">13</a></span>
+<span class="normal"><a href="#__codelineno-28-14">14</a></span>
+<span class="normal"><a href="#__codelineno-28-15">15</a></span>
+<span class="normal"><a href="#__codelineno-28-16">16</a></span>
+<span class="normal"><a href="#__codelineno-28-17">17</a></span>
+<span class="normal"><a href="#__codelineno-28-18">18</a></span>
+<span class="normal"><a href="#__codelineno-28-19">19</a></span>
+<span class="normal"><a href="#__codelineno-28-20">20</a></span>
+<span class="normal"><a href="#__codelineno-28-21">21</a></span>
+<span class="normal"><a href="#__codelineno-28-22">22</a></span>
+<span class="normal"><a href="#__codelineno-28-23">23</a></span>
+<span class="normal"><a href="#__codelineno-28-24">24</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-28-1"><a id="__codelineno-28-1" name="__codelineno-28-1"></a><span class="kn">import</span><span class="w"> </span><span class="p">(</span>
+</span><span id="__span-28-2"><a id="__codelineno-28-2" name="__codelineno-28-2"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/agent&quot;</span>
+</span><span id="__span-28-3"><a id="__codelineno-28-3" name="__codelineno-28-3"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/agent/chainagent&quot;</span>
+</span><span id="__span-28-4"><a id="__codelineno-28-4" name="__codelineno-28-4"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/agent/llmagent&quot;</span>
+</span><span id="__span-28-5"><a id="__codelineno-28-5" name="__codelineno-28-5"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/tool&quot;</span>
+</span><span id="__span-28-6"><a id="__codelineno-28-6" name="__codelineno-28-6"></a><span class="p">)</span>
+</span><span id="__span-28-7"><a id="__codelineno-28-7" name="__codelineno-28-7"></a>
+</span><span id="__span-28-8"><a id="__codelineno-28-8" name="__codelineno-28-8"></a><span class="c1">// 创建自定义 Agent</span>
+</span><span id="__span-28-9"><a id="__codelineno-28-9" name="__codelineno-28-9"></a><span class="nx">customAgent</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">New</span><span class="p">(</span>
+</span><span id="__span-28-10"><a id="__codelineno-28-10" name="__codelineno-28-10"></a><span class="w">    </span><span class="s">&quot;custom-agent&quot;</span><span class="p">,</span>
+</span><span id="__span-28-11"><a id="__codelineno-28-11" name="__codelineno-28-11"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithModel</span><span class="p">(</span><span class="nx">modelInstance</span><span class="p">),</span>
+</span><span id="__span-28-12"><a id="__codelineno-28-12" name="__codelineno-28-12"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithDescription</span><span class="p">(</span><span class="s">&quot;自定义 Agent 描述&quot;</span><span class="p">),</span>
+</span><span id="__span-28-13"><a id="__codelineno-28-13" name="__codelineno-28-13"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithInstruction</span><span class="p">(</span><span class="s">&quot;自定义指令&quot;</span><span class="p">),</span>
+</span><span id="__span-28-14"><a id="__codelineno-28-14" name="__codelineno-28-14"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithTools</span><span class="p">([]</span><span class="nx">tool</span><span class="p">.</span><span class="nx">Tool</span><span class="p">{</span><span class="nx">customTool</span><span class="p">}),</span>
+</span><span id="__span-28-15"><a id="__codelineno-28-15" name="__codelineno-28-15"></a><span class="p">)</span>
+</span><span id="__span-28-16"><a id="__codelineno-28-16" name="__codelineno-28-16"></a>
+</span><span id="__span-28-17"><a id="__codelineno-28-17" name="__codelineno-28-17"></a><span class="c1">// 集成到多 Agent 系统中</span>
+</span><span id="__span-28-18"><a id="__codelineno-28-18" name="__codelineno-28-18"></a><span class="nx">chainAgent</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">chainagent</span><span class="p">.</span><span class="nx">New</span><span class="p">(</span>
+</span><span id="__span-28-19"><a id="__codelineno-28-19" name="__codelineno-28-19"></a><span class="w">    </span><span class="s">&quot;custom-chain&quot;</span><span class="p">,</span>
+</span><span id="__span-28-20"><a id="__codelineno-28-20" name="__codelineno-28-20"></a><span class="w">    </span><span class="nx">chainagent</span><span class="p">.</span><span class="nx">WithSubAgents</span><span class="p">([]</span><span class="nx">agent</span><span class="p">.</span><span class="nx">Agent</span><span class="p">{</span>
+</span><span id="__span-28-21"><a id="__codelineno-28-21" name="__codelineno-28-21"></a><span class="w">        </span><span class="nx">existingAgent</span><span class="p">,</span>
+</span><span id="__span-28-22"><a id="__codelineno-28-22" name="__codelineno-28-22"></a><span class="w">        </span><span class="nx">customAgent</span><span class="p">,</span><span class="w">  </span><span class="c1">// 添加自定义 Agent</span>
+</span><span id="__span-28-23"><a id="__codelineno-28-23" name="__codelineno-28-23"></a><span class="w">    </span><span class="p">}),</span>
+</span><span id="__span-28-24"><a id="__codelineno-28-24" name="__codelineno-28-24"></a><span class="p">)</span>
+</span></code></pre></div></td></tr></table></div>
+<h3 id="_37">配置工具</h3>
+<div class="language-go highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-29-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-29-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-29-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-29-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-29-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-29-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-29-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-29-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-29-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-29-10">10</a></span>
+<span class="normal"><a href="#__codelineno-29-11">11</a></span>
+<span class="normal"><a href="#__codelineno-29-12">12</a></span>
+<span class="normal"><a href="#__codelineno-29-13">13</a></span>
+<span class="normal"><a href="#__codelineno-29-14">14</a></span>
+<span class="normal"><a href="#__codelineno-29-15">15</a></span>
+<span class="normal"><a href="#__codelineno-29-16">16</a></span>
+<span class="normal"><a href="#__codelineno-29-17">17</a></span>
+<span class="normal"><a href="#__codelineno-29-18">18</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-29-1"><a id="__codelineno-29-1" name="__codelineno-29-1"></a><span class="kn">import</span><span class="w"> </span><span class="p">(</span>
+</span><span id="__span-29-2"><a id="__codelineno-29-2" name="__codelineno-29-2"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/agent/llmagent&quot;</span>
+</span><span id="__span-29-3"><a id="__codelineno-29-3" name="__codelineno-29-3"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/tool&quot;</span>
+</span><span id="__span-29-4"><a id="__codelineno-29-4" name="__codelineno-29-4"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/tool/function&quot;</span>
+</span><span id="__span-29-5"><a id="__codelineno-29-5" name="__codelineno-29-5"></a><span class="p">)</span>
+</span><span id="__span-29-6"><a id="__codelineno-29-6" name="__codelineno-29-6"></a>
+</span><span id="__span-29-7"><a id="__codelineno-29-7" name="__codelineno-29-7"></a><span class="c1">// 创建自定义工具</span>
+</span><span id="__span-29-8"><a id="__codelineno-29-8" name="__codelineno-29-8"></a><span class="nx">customTool</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">function</span><span class="p">.</span><span class="nx">NewFunctionTool</span><span class="p">(</span>
+</span><span id="__span-29-9"><a id="__codelineno-29-9" name="__codelineno-29-9"></a><span class="w">    </span><span class="nx">customFunction</span><span class="p">,</span>
+</span><span id="__span-29-10"><a id="__codelineno-29-10" name="__codelineno-29-10"></a><span class="w">    </span><span class="nx">function</span><span class="p">.</span><span class="nx">WithName</span><span class="p">(</span><span class="s">&quot;custom_tool&quot;</span><span class="p">),</span>
+</span><span id="__span-29-11"><a id="__codelineno-29-11" name="__codelineno-29-11"></a><span class="w">    </span><span class="nx">function</span><span class="p">.</span><span class="nx">WithDescription</span><span class="p">(</span><span class="s">&quot;自定义工具描述&quot;</span><span class="p">),</span>
+</span><span id="__span-29-12"><a id="__codelineno-29-12" name="__codelineno-29-12"></a><span class="p">)</span>
+</span><span id="__span-29-13"><a id="__codelineno-29-13" name="__codelineno-29-13"></a>
+</span><span id="__span-29-14"><a id="__codelineno-29-14" name="__codelineno-29-14"></a><span class="c1">// 为 Agent 分配工具</span>
+</span><span id="__span-29-15"><a id="__codelineno-29-15" name="__codelineno-29-15"></a><span class="nx">agent</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">New</span><span class="p">(</span>
+</span><span id="__span-29-16"><a id="__codelineno-29-16" name="__codelineno-29-16"></a><span class="w">    </span><span class="s">&quot;tool-agent&quot;</span><span class="p">,</span>
+</span><span id="__span-29-17"><a id="__codelineno-29-17" name="__codelineno-29-17"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithTools</span><span class="p">([]</span><span class="nx">tool</span><span class="p">.</span><span class="nx">Tool</span><span class="p">{</span><span class="nx">customTool</span><span class="p">}),</span>
+</span><span id="__span-29-18"><a id="__codelineno-29-18" name="__codelineno-29-18"></a><span class="p">)</span>
+</span></code></pre></div></td></tr></table></div>
+<h3 id="_38">调整参数</h3>
+<div class="language-go highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-30-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-30-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-30-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-30-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-30-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-30-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-30-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-30-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-30-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-30-10">10</a></span>
+<span class="normal"><a href="#__codelineno-30-11">11</a></span>
+<span class="normal"><a href="#__codelineno-30-12">12</a></span>
+<span class="normal"><a href="#__codelineno-30-13">13</a></span>
+<span class="normal"><a href="#__codelineno-30-14">14</a></span>
+<span class="normal"><a href="#__codelineno-30-15">15</a></span>
+<span class="normal"><a href="#__codelineno-30-16">16</a></span>
+<span class="normal"><a href="#__codelineno-30-17">17</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-30-1"><a id="__codelineno-30-1" name="__codelineno-30-1"></a><span class="kn">import</span><span class="w"> </span><span class="p">(</span>
+</span><span id="__span-30-2"><a id="__codelineno-30-2" name="__codelineno-30-2"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/agent/llmagent&quot;</span>
+</span><span id="__span-30-3"><a id="__codelineno-30-3" name="__codelineno-30-3"></a><span class="w">    </span><span class="s">&quot;trpc.group/trpc-go/trpc-agent-go/model&quot;</span>
+</span><span id="__span-30-4"><a id="__codelineno-30-4" name="__codelineno-30-4"></a><span class="p">)</span>
+</span><span id="__span-30-5"><a id="__codelineno-30-5" name="__codelineno-30-5"></a>
+</span><span id="__span-30-6"><a id="__codelineno-30-6" name="__codelineno-30-6"></a><span class="c1">// 配置生成参数</span>
+</span><span id="__span-30-7"><a id="__codelineno-30-7" name="__codelineno-30-7"></a><span class="nx">genConfig</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">model</span><span class="p">.</span><span class="nx">GenerationConfig</span><span class="p">{</span>
+</span><span id="__span-30-8"><a id="__codelineno-30-8" name="__codelineno-30-8"></a><span class="w">    </span><span class="nx">MaxTokens</span><span class="p">:</span><span class="w">   </span><span class="nx">intPtr</span><span class="p">(</span><span class="mi">500</span><span class="p">),</span>
+</span><span id="__span-30-9"><a id="__codelineno-30-9" name="__codelineno-30-9"></a><span class="w">    </span><span class="nx">Temperature</span><span class="p">:</span><span class="w"> </span><span class="nx">floatPtr</span><span class="p">(</span><span class="mf">0.7</span><span class="p">),</span>
+</span><span id="__span-30-10"><a id="__codelineno-30-10" name="__codelineno-30-10"></a><span class="w">    </span><span class="nx">Stream</span><span class="p">:</span><span class="w">      </span><span class="kc">true</span><span class="p">,</span>
+</span><span id="__span-30-11"><a id="__codelineno-30-11" name="__codelineno-30-11"></a><span class="p">}</span>
+</span><span id="__span-30-12"><a id="__codelineno-30-12" name="__codelineno-30-12"></a>
+</span><span id="__span-30-13"><a id="__codelineno-30-13" name="__codelineno-30-13"></a><span class="c1">// 应用到 Agent</span>
+</span><span id="__span-30-14"><a id="__codelineno-30-14" name="__codelineno-30-14"></a><span class="nx">agent</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">New</span><span class="p">(</span>
+</span><span id="__span-30-15"><a id="__codelineno-30-15" name="__codelineno-30-15"></a><span class="w">    </span><span class="s">&quot;configured-agent&quot;</span><span class="p">,</span>
+</span><span id="__span-30-16"><a id="__codelineno-30-16" name="__codelineno-30-16"></a><span class="w">    </span><span class="nx">llmagent</span><span class="p">.</span><span class="nx">WithGenerationConfig</span><span class="p">(</span><span class="nx">genConfig</span><span class="p">),</span>
+</span><span id="__span-30-17"><a id="__codelineno-30-17" name="__codelineno-30-17"></a><span class="p">)</span>
 </span></code></pre></div></td></tr></table></div>
 
 
@@ -4983,7 +5773,7 @@ Escalation 只是指控制流上抛 / 中止循环，并不是“版本升级”
     <span class="md-icon" title="最后更新">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_datetime" title="2026年5月28日 01:37:34 UTC">2026-05-28 01:37:34</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_datetime" title="2026年6月22日 02:47:05 UTC">2026-06-22 02:47:05</span>
   </span>
 
     
@@ -5074,7 +5864,7 @@ Escalation 只是指控制流上抛 / 中止循环，并不是“版本升级”
       <nav class="md-footer__inner md-grid" aria-label="页脚" >
         
           
-          <a href="../agent/" class="md-footer__link md-footer__link--prev" aria-label="上一页: Agent">
+          <a href="../goal/" class="md-footer__link md-footer__link--prev" aria-label="上一页: Goal 扩展">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -5084,7 +5874,7 @@ Escalation 只是指控制流上抛 / 中止循环，并不是“版本升级”
                 上一页
               </span>
               <div class="md-ellipsis">
-                Agent
+                Goal 扩展
               </div>
             </div>
           </a>
